@@ -1,0 +1,1820 @@
+/* Laptop */
+@media (max-width: 1366px) {}
+
+/* Fin laptop */
+/* Tablet landscape */
+@media (max-width: 1024px) {
+  main {
+    padding-top: 4rem;
+  }
+
+  .footer-bottom {
+    background-color: var(--black);
+    padding-top: .5rem;
+    padding-bottom: 5.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: right;
+    border: none;
+  }
+
+  /* HEADER DESKTOP */
+  .navbar-top, .navbar-desktop, .navbar-categorias {
+    display: none;
+  }
+
+  /* FIN HEADER DESKTOP */
+  /* SECTION GRID IMG CATEGORIES */
+  .grid-container-categorias .img-categories-container {
+    /* background-color: #e5e5e5; */
+    width: 100%;
+    height: 200px;
+  }
+
+  /* SECTION GRID IMG CATEGORIES */
+  /* MAIN MENU MOBILE */
+  .navbar-main-mobile {
+    display: flex;
+  }
+
+  /* FIN MAIN MENU MOBILE */
+  /* SECTION MIS ACTIVACIONES HOME */
+  .grid-container-activaciones-home .item:last-child {
+    background-color: var(--bgGray);
+    /* background-color: pink; */
+    display: none;
+  }
+
+  /* FIN SECTION MIS ACTIVACIONES */
+  /* SECTION INFO */
+  .info-text {
+    /* background-color: var(--yellow); */
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+  }
+
+  .p-info-text {
+    width: 65%;
+  }
+
+  /* FIN SECTION INFO */
+  /* CHECKOUT */
+  .item-shopping-product {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* FIN CHECKOUT */
+  /* PÁGINA ACTIVACIONES */
+  .grid-container-activaciones-interna {
+    /* background-color: lightYellow; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .grid-container-activaciones-home {
+    /* background-color: lightYellow; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+
+  /* FIN PÁGINA ACTIVACIONES */
+  /* MENU CATEGORIAS */
+  .menu-categorias {
+    /* background-color: pink; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  /* FIN MENU CATEGORIAS */
+  /* BOTÓN FLOTANTE WHATSAPP */
+  .whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 5rem;
+    right: 1.5rem;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 3px 3px 15px  var(--gray); */
+  }
+
+  /* FIN BOTÓN FLOTANTE WHATSAPP */
+  /* RESUMEN COMPRA DATOS DE ENVÍO */
+  .resumen-compra-datos-envio {
+    display: none;
+  }
+
+  /* FIN RESUMEN COMPRA DATOS DE ENVÍO */
+  /* BANNERS */
+  .banner-categoria {
+    background-repeat: no-repeat;
+    background-position: center right 40%;
+    background-size: cover;
+  }
+
+  /* FIN BANNERS */
+  /* PERFIL USUARIO */
+  .sidebar-perfil {
+    display: none;
+  }
+
+  .container-link-back-perfil {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .content-tabs-perfil {
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* FIN PERFIL USUARIO*/
+  /* ENTRADAS ATWORK */
+  .item-entrada .precio-entrada {
+    /* background-color: pink; */
+    font-family: 'Inter', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0;
+    margin-right: 2rem;
+    width: 8rem;
+    text-align: right;
+  }
+
+  /* FIN ENTRADAS ATWORK */
+  /* VALES CONSUMO DETALLE */
+  .wrap-vale {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 3.5rem;
+  }
+
+  .vale-controls {
+    /* background-color: lightblue; */
+    min-width: 12rem;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  /* FIN VALES CONSUMO DETALLE */
+  /* TERMINOS Y CONDICIONES */
+  .main-info-pages {
+    padding-top: 0;
+  }
+
+  /* FIN TERMINOS Y CONDICIONES */
+  /* Ticket entrada */
+  .ticket {
+    margin-right: 1rem;
+  }
+
+  /* fin Ticket entrada */
+}
+
+/* Fin tablet landscape */
+/* Big cell landscape */
+@media (max-width: 915px) {
+
+  /* BANNER CLIENT */
+  .banner-client .content-brand-logo {
+    /* background-color: lavender; */
+    margin-right: .75rem;
+    height: 5rem;
+    max-width: 5rem;
+    min-width: 5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .banner-client .content-text-client {
+    /* background-color: yellow; */
+    min-height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: .75rem;
+    font-size: .75rem;
+  }
+
+  /* END BANNER CLIENT */
+  /* ACTIVACIONES HOME */
+  .content-activacion-home {
+    margin-bottom: 1.5rem;
+  }
+
+  /* END ACTIVACIONES HOME */
+
+  /* SECTION GRID IMG CATEGORIES */
+
+  .grid-container-categorias {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* END SECTION GRID IMG CATEGORIES */
+
+  /* FOOTER */
+  .list-group-footer .list-group-item {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+
+  /* FIN FOOTER */
+  /* LOGIN */
+  .container-form-login {
+    padding: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-login {
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 1px solid var(--border);
+  }
+
+  /* FIN LOGIN */
+  /* ACCESO */
+  .form-acceso {
+    width: 100%;
+  }
+
+  /* FIN ACCESO */
+  /* HOME */
+  .header-section-offers {
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-countdown {
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-section-offers .title-section {
+    margin-bottom: .5rem;
+  }
+
+  .info-countdown {
+    /* background-color: pink; */
+    padding-top: 0;
+    margin-right: 0;
+    margin-bottom: .5rem;
+  }
+
+  /* SECTION OFFERS */
+  /* FIN SECTION OFFERS */
+  /* MAIN CATEGORY */
+  .sidebar-filter {
+    display: none;
+  }
+
+  .navbar-breadcrumb-filter {
+    /* background-color: yellow; */
+    display: none;
+  }
+
+  .breadcrumb-bee-mobile {
+    /* background-color: pink;; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+  }
+
+  .nav-filter-mobile {
+    display: block;
+  }
+
+  /* FIN MAIN CATEGORY */
+  .content-text-salient-product {
+    /* background-color: lavender; */
+    width: 100%;
+    padding-top: 2rem;
+  }
+
+  /* FIN SALIENT PRODUCT */
+  /* RESTAURANTES */
+  .grid-container-restaurantes {
+    /* background-color: pink; */
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .grid-container-restaurantes .item {
+    /* background-color: pink; */
+    overflow: hidden;
+    border-radius: .5rem;
+    position: relative;
+    height: 7.5rem;
+  }
+
+  /* FIN RESTAURANTES */
+  /* DETALLE PRODUCTO */
+  .section-product-detail .container .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-img-product {
+    /* background-color: teal; */
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    border-radius: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+
+  .content-text-product {
+    /* background-color: pink; */
+    padding: 1rem;
+    width: 100%
+  }
+
+  /* FIN DETALLE PRODUCTO */
+  /* PÁGINA ACTIVACIONES */
+  .grid-container-activaciones-interna {
+    /* background-color: lightYellow; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+  }
+
+  .grid-container-activaciones-interna .item {
+    background-color: var(--bgGray);
+    border-radius: .5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .activacion-mes {
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .activacion-fecha {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  /* FIN PÁGINA ACTIVACIONES */
+  /* SECTION ACTIVACIONES HOME */
+  .grid-container-activaciones-home {
+    /* background-color: lightYellow; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .grid-container-activaciones-home .item:last-child {
+    background-color: var(--bgGray);
+    display: flex;
+  }
+
+  /* FIN SECTION ACTIVACIONES HOME */
+  /* CARRITO DE COMPRAS */
+  .card-carrito__desc .btn-delete {
+    display: block;
+  }
+
+  .card-carrito__controls .btn-delete {
+    display: none;
+  }
+
+  .card-carrito__desc {
+    /* background-color:  yellow; */
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .card-carrito__detail {
+    /* background-color: lavender; */
+    padding: 0;
+    margin: 0 1rem;
+    width: 50%;
+    margin-right: auto;
+  }
+
+  .card-carrito__brand {
+    font-size: 12px;
+    color: var(--grayText);
+    text-transform: uppercase;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+  }
+
+  .card-carrito__product {
+    font-size: 1rem;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-bottom: 8px;
+  }
+
+  .card-carrito__product-desc {
+    margin-bottom: .5rem;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    position: relative;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 !important;
+    -webkit-line-clamp: 2;
+    height: calc(1em * 1.2 * 2);
+  }
+
+  .card-carrito__wrap-img, .card-product-checkout__wrap-img {
+    /* background-color: teal; */
+    overflow: hidden;
+    border-radius: .5rem;
+    min-width: 5rem;
+    min-height: 5rem;
+    max-width: 5rem;
+    max-height: 5rem;
+  }
+
+  .card-carrito__controls {
+    /* background-color: yellow; */
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .card-carrito__controls-wrap {
+    /* background-color: lightgreen; */
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* FIN CARRITO DE COMPRAS */
+  /* CHECKOUT */
+  .card-product-checkout__desc {
+    /* background-color: yellow; */
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .grid-fecha-entrega {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  /* FIN CHECKOUT */
+  .container-link-back {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  /* MAIN CAROUSEL */
+  .carousel-item .banner-carousel {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: left;
+  }
+
+  .content-logo-empresa-carousel {
+    /* background-color: blue; */
+    height: 120px;
+    width: 100%;
+    margin-bottom: .5rem;
+  }
+
+  .carousel-control {
+    display: none;
+  }
+
+  /* END MAIN CAROUSEL */
+  /* BANNERS */
+  .banner {
+    /* background-color: pink; */
+    height: auto;
+  }
+
+  .big-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  /* FIN BANNERS */
+  /* VALES CONSUMO DETALLE */
+  .vale {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 345px;
+  }
+
+  .vale-wrap-content {
+    /* background-color: var(--ringo); */
+    width: 100%;
+    height: 100%;
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: var(--jhon);
+    border-top-style: dotted;
+    border-left-style: none;
+  }
+
+  .content-vale {
+    /* background-color: var(--jhon); */
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: .5rem .5rem 0 0;
+  }
+
+  .logo-vale-vertical {
+    width: 1.5rem;
+    display: none;
+  }
+
+  .logo-vale-horizontal {
+    height: 1.5rem;
+    display: block;
+  }
+
+  .wrap-logo-vale {
+    /* background-color: teal; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0 0 .5rem .5rem;
+  }
+
+  /* FIN VALES CONSUMO DETALLE */
+  /* COMPLEJOS CINE */
+  .card-complejos .card-body p {
+    font-size: .75rem;
+    padding: 0;
+  }
+
+  .content-mapa-complejo {
+    /* background-color: yellow; */
+    padding: 0;
+  }
+
+  /* FIN COMPLEJOS CINE */
+}
+
+/* Fin Big Cell landscape */
+/* Tablet portrait */
+@media (max-width: 768px) {
+
+  /* LOGIN */
+  .container-form-login {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-login {
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 1px solid var(--border);
+  }
+
+  /* FIN LOGIN */
+  /* HOME */
+  /* HEADER TOP */
+  .header-top {
+    display: none;
+  }
+
+  /* FIN HEADER TOP */
+  /* FIN HOME */
+  /* END BANNER CLIENT */
+  /* BANNER HOME */
+  .text-banner {
+    /* background-color: green; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  /* FIN BANNER HOME */
+  /* CARD PRODUCT */
+  .content-card {
+    /* background-color: teal; */
+    margin: 0 .5rem 1rem .5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+
+  /* FIN CARD PRODUCT */
+  /* SECTION MIS ACTIVACIONES */
+  .grid-container-misActivaciones {
+    /* background-color: lightYellow; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 220px;
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+
+  .grid-container-misActivaciones .item:first-child {
+    /* background-color: lightblue; */
+    grid-column: 1 / span 3;
+  }
+
+  /* FIN SECTION MIS ACTIVACIONES */
+  /* RESTAURANTES */
+  .grid-container-restaurantes {
+    /* background-color: pink; */
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .grid-container-restaurantes .item {
+    /* background-color: pink; */
+    overflow: hidden;
+    border-radius: .5rem;
+    position: relative;
+    height: 7.5rem;
+  }
+
+  /* FIN RESTAURANTES */
+  /* SECTION INFO */
+  .section-info {
+    display: none;
+  }
+
+  .section-info-mobile {
+    display: block;
+    padding: 0 2rem;
+  }
+
+  /* FIN INFO SECTION */
+  /* PRODUCTO */
+  .breadcrumb-bee {
+    /* background-color: pink; */
+  }
+
+  /* FIN PRODUCTO */
+  /* CHECKOUT */
+  /* FIN CHECKOUT */
+  /* CONFIRMACION COMPRA */
+  .img-confirmacion-compra {
+    /* background-color: blue; */
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .img-confirmacion-compra img {
+    width: 50%;
+  }
+
+  /* FIN CONFIRMACION COMPRA */
+  /* CAROUSEL */
+  .carousel-wrap {
+    /* background-color: pink; */
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+
+  .owl-carousel-beneficios .prev-slide, .owl-carousel .prev-slide {
+    display: none;
+  }
+
+  .owl-carousel-beneficios .next-slide, .owl-carousel .next-slide {
+    display: none;
+  }
+
+  /* FIN CAROUSEL */
+  /* BANNERS */
+  .banner-categoria {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  /* FIN BANNERS */
+}
+
+/* fin tablet portrait */
+/* Cell landscape */
+@media (max-width: 740px) {
+
+  /* LOGIN */
+  .container-form-login {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-login {
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid var(--border);
+    margin: 0 1rem;
+  }
+
+  .wrap-btns-login {
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* FIN LOGIN */
+  /* ACCESO LOGIN-REGISTRO */
+  .title-login-big {
+    font-weight: 700;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .form-acceso {
+    width: 100%;
+    padding: 1.5rem 2rem 2rem 2rem;
+  }
+
+  .form-acceso .navbar {
+    margin-bottom: 2rem;
+  }
+
+  /* FIN ACCESO LOGIN-REGISTRO */
+  /* BANNER HOME */
+  .text-banner {
+    /* background-color: green; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  /* FIN BANNER HOME */
+
+  /* GRID CATEGORIES HOME */
+  .section-grid-categories {
+    /* background-color: pink; */
+  }
+
+  .grid-container-categorias .img-categories-container {
+    /* background-color: #e5e5e5; */
+    width: 100%;
+    height: 160px;
+  }
+
+  .grid-container-categorias .category_name p {
+    font-size: 1rem;
+  }
+
+  /* END GRID CATEGORIES HOME */
+
+  .section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  /* SECTION MIS ACTIVACIONES */
+  .header-section {
+    /* background-color: lightYellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .footer-section {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .grid-container-misActivaciones {
+    /* background-color: lightYellow; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 230px 150px;
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+
+  .grid-container-misActivaciones .item:first-child {
+    /* background-color: lightblue; */
+    grid-column: 1 / span 3;
+  }
+
+  /* FIN SECTION MIS ACTIVACIONES */
+
+  /* SECTION PRODUCTOS DESTACADOS */
+  .grid-featured-product {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-featured-product .featured-product-item:nth-child(3) {
+    grid-column: 1 / span 1;
+  }
+  /* END SECTION PRODUCTOS DESTACADOS */
+
+
+  /* RESTAURANTES */
+  .grid-container-restaurantes {
+    /* background-color: pink; */
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .grid-container-restaurantes .item {
+    /* background-color: pink; */
+    overflow: hidden;
+    border-radius: .5rem;
+    position: relative;
+    height: 5.5rem;
+  }
+
+  /* CARTELERA */
+  .text-banner-atWork .title-banner {
+    font-family: "TT Norms";
+    font-size: 32px;
+  }
+
+  /* FIN CARTELERA */
+  /* BOLETERÍA  */
+  .item-entrada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .item-entrada .entrada {
+    /* background-color: var(--green); */
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .item-entrada .entrada .nombre-entrada {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .content-precio-cantidad {
+    /* background-color: lightgreen; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 0;
+  }
+
+  .item-entrada .precio-entrada {
+    /* background-color: pink; */
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 3rem 0 0;
+    min-width: 8rem;
+    text-align: left;
+  }
+
+  .content-btn-agregarEntradas {
+    width: 100%;
+    /* background-color: pink; */
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* FIN BOLETERIA */
+  /* CARRITO */
+  /* STEP WIZARD */
+  .step-wizard {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+  }
+
+  .step-wizard .btn {
+    margin-right: 1rem;
+  }
+
+  .step-wizard .btn:last-child {
+    margin-right: 0;
+  }
+
+  .step-wizard-line {
+    display: none;
+  }
+
+  /* END STEP WIZARD */
+  /* END CARRITO */
+  /* CHECKOUT */
+  .grid-fecha-entrega {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+
+  /* FIN CHECKOUT */
+  /* FIN RESTAURANTES */
+  .card-product-checkout {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .card-product-checkout:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  /* PÁGINA ACTIVACIONES */
+  .grid-container-activaciones-interna {
+    /* background-color: lightYellow; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .grid-container-activaciones-interna .item, .grid-container-activaciones-home .item {
+    background-color: var(--bgGray);
+    border-radius: .5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 10rem;
+  }
+
+  .activacion-mes {
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .activacion-fecha {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  /* FIN PÁGINA ACTIVACIONES */
+  /* SECTION ACTIVACIONES HOME */
+  .grid-container-activaciones-home {
+    /* background-color: lightYellow; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  /* FIN SECTION ACTIVACIONES HOME */
+  .header-section-vertical {
+    /* background-color: pink; */
+    margin-bottom: 1.5rem;
+  }
+
+  .title-section {
+    font-size: 1.25rem;
+  }
+
+  .description-header-section {
+    font-size: 0.875rem;
+  }
+
+  /* DATOS DE ENVIO */
+  .grid-direcciones-guardadas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .card-datos-envio .header-card {
+    /* background-color: pink; */
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card-datos-envio .title-card {
+    margin-bottom: 1rem;
+  }
+
+  /* FIN DATOS DE ENVIO */
+  /* BANNERS */
+  .banner .container .row {
+    /* background-color: orange; */
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-logo-empresa-banner {
+    /* background-color: peru; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+  }
+
+  .logo-empresa-banner {
+    width: 12rem;
+  }
+
+  .banner-categoria {
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+  }
+
+  /* FIN BANNERS */
+  /* PERFIL */
+  .card-perfil-misDirecciones .header-card {
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  /* FIN PERFIL */
+  /* TICKETS ATWORK */
+  .wrap-vale-ticket {
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 3.5rem;
+  }
+
+  /* FIN TICKETS ATWORK */
+}
+
+/* Fin cell landscape */
+/* Small cell landscape */
+@media (max-width: 568px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* Fin small cell landscape */
+/* Cell portrait */
+@media (max-width: 480px) {
+
+  /* LOGIN */
+  .container-form-login {
+    /* background-color: pink; */
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem 1.5rem;
+  }
+
+  .form-login {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    margin: 0;
+    width: 100%;
+    box-shadow: 0 .8rem 1rem rgba(0, 0, 0, 0);
+  }
+
+  .wrap-btns-login {
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .link-registro {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  /* FIN LOGIN */
+  /* ACCESO */
+  .form-acceso .logo-form-login {
+    width: 100%;
+  }
+
+  .wrap-btns-acceso {
+    width: 100%;
+  }
+
+  /* FIN ACCESO */
+  /* FIELDSET CONFIRMAR CORREO */
+  .passcode-wrapper input {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    text-align: center;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+  }
+
+  /* END FIELDSET CONFIRMAR CORREO */
+  /* MAIN CAROUSEL */
+  .main-carousel .carousel-item {
+    width: 100vw;
+    height: 110vw;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  }
+
+  .bg-cp-rockys {
+    background-image: url(../img/carousel/carousel-principal-mobile/cpm-rocys.png);
+  }
+
+  .bg-cp-gianmarco {
+    background-image: url(../img/carousel/carousel-principal-mobile/cpm-gianmarco.png);
+  }
+
+  /* END MAIN CAROUSEL */
+  /* ACTIVACIONES HOME */
+  .activacion-home {
+    border-radius: 0;
+  }
+
+  .content-activacion-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .content-img-activacion-home {
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .content-cta-activacion-home .btn {
+    width: 100%;
+  }
+
+  /* END ACTIVACIONES HOME */
+  /* GRID CATEGORIES HOME */
+  .grid-container-categorias {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-container-categorias .img-categories-container {
+    /* background-color: #e5e5e5; */
+    width: 100%;
+    height: 140px;
+  }
+
+  .grid-container-categorias .category_name p {
+    font-size: 1rem;
+  }
+
+  /* END GRID CATEGORIES HOME */
+  /* NAVBAR MAIN MOBILE */
+  .navbar-main-mobile .left .nav-link, .navbar-main-mobile .right .nav-link {
+    padding: .5rem;
+  }
+
+  /* FIN NAVBAR MAIN MOBILE */
+  /* SECTION COUNTDOWN */
+  .header-section-offers {
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+
+  .header-section-offers .title-section {
+    margin-bottom: 1rem;
+  }
+
+  /* FIN SECTION COUNTDOWN */
+  /* CARD HOME */
+  .wrap-cards {
+    /* background-color: peru; */
+    padding: 1rem 0;
+  }
+
+  .card-product {
+    width: 100%;
+    justify-content: space-between;
+    border: none;
+  }
+
+  /* FIN CARD HOME */
+  /* SALIENT PRODUCT */
+  .content-img-salient-product {
+    background-color: orange;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 20rem;
+  }
+
+  /* FIN SALIENT PRODUCT */
+  /* SECTION MIS ACTIVACIONES */
+  .header-section {
+    /* background-color: lightYellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .footer-section {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* RESTAURANTES */
+  .grid-container-restaurantes {
+    /* background-color: pink; */
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .grid-container-restaurantes .item {
+    /* background-color: pink; */
+    overflow: hidden;
+    border-radius: .5rem;
+    position: relative;
+    height: 5.5rem;
+  }
+
+  /* FIN RESTAURANTES */
+  /* DETALLE PRODUCTO */
+  .content-img-product {
+    /* background-color: teal; */
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+    border-radius: 0;
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+  }
+
+  .content-text-product {
+    /* background-color: pink; */
+    padding: 1rem 0;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .content-btn-product {
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .content-btn-product .control-quantity {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .content-btn-product-detalle .plus-minus-box {
+    /* background-color: yellow; */
+    width: 100%;
+  }
+
+  .content-btn-product-detalle .btn-primario {
+    background-color: pink;
+    width: 100%;
+  }
+
+  /* FIN DETALLE PRODUCTO */
+  /* SECTION INFO MOBILE */
+  .section-info-mobile {
+    /* background-color: lavender; */
+    padding: 0;
+  }
+
+  .info-text-mobile {
+    background-color: var(--yellow);
+    padding: 2rem 15px;
+  }
+
+  /* FIN SECTION INFO MOBILE */
+  /* MAIN CATEGORY */
+  .section-wrap-cards-main-category .container {
+    /* background-color: salmon; */
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .section-salient-product-mini {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  /* FIN MAIN CATEGORY */
+  /* SEARCHER MOBILE */
+  .img-gategory {
+    overflow: hidden;
+    border-radius: 1rem;
+    position: relative;
+    height: 8rem;
+    margin-bottom: 1rem;
+  }
+
+  .img-gategory .overlay .text {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  /* FIN SEARCHER MOBILE */
+  /* PÁGINA DIRECCIÓN DE ENTREGA */
+  .card-header-direccion {
+    /* background-color: pink; */
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .card-header-direccion .title-card {
+    margin-bottom: 1rem;
+  }
+
+  .card-header-direccion .btn {
+    width: 100%;
+  }
+
+  /* FIN PÁGINA DIRECCIÓN DE ENTREGA */
+  /* MIS BENEFICIOS */
+  .content-img-benefits-product {
+    /* background-color: orange; */
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: .5rem;
+  }
+
+  /* FIN MIS BENEFICIOS */
+  /* CARTELERA AT WORK */
+  .carousel-wrap {
+    /* background-color: pink; */
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+
+  .owl-carousel .prev-slide, .owl-carousel .next-slide {
+    display: none;
+  }
+
+  /* FIN CARTELERA AT WORK */
+  /* BOLETERÍA */
+  .content-precio-cantidad {
+    /* background-color: lightgreen; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .item-entrada .precio-entrada {
+    /* background-color: pink; */
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    width: auto;
+    text-align: left;
+  }
+
+  .select-atwork {
+    max-width: 100%;
+  }
+
+  /* FIN BOLETERÍA */
+  /* DULCERÍA */
+  .content-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-product {
+    /* background-color: pink; */
+    border-radius: .5rem;
+    width: 16rem;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  /* FIN DULCERÍA */
+  /* PERFIL */
+  .wrap-img-empty-address {
+    /* background-color: yellow; */
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+
+  /* FIN PERFIL */
+  /* AGREGAR DIRECCION */
+  .content-btns-form-address {
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .content-btns-form-address .btn:first-child {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  /* FIN AGREGAR DIRECCION */
+  /* MODAL */
+  .modal-footer-link {
+    flex-direction: column;
+  }
+
+  .modal-footer-link .link-registro {
+    padding-top: 1rem;
+  }
+
+  /* FIN MODAL */
+  /* PÁGINA ACTIVACIONES */
+  .grid-container-activaciones-interna {
+    /* background-color: lightYellow; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .activacion-fecha {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  /* FIN PÁGINA ACTIVACIONES */
+  /* SECTION ACTIVACIONES HOME */
+  .grid-container-activaciones-home {
+    /* background-color: lightYellow; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+
+  /* FIN SECTION ACTIVACIONES HOME */
+  /* CARRITO DE COMPRAS */
+  .card-carrito {
+    background-color: var(--white);
+    border-radius: .5rem;
+    padding: 1rem .5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .card-carrito__controls-wrap {
+    /* background-color: lavender; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card-carrito__price {
+    /* background-color: pink; */
+    white-space: nowrap;
+    font-size: 1.5rem;
+    padding: 0;
+    text-align: right;
+  }
+
+  .card-resumen-compra {
+    /* background-color: var(--white); */
+    border-radius: 1rem;
+    padding: 2rem;
+  }
+
+  .card-resumen-compra .content-btn .btn {
+    width: 100%;
+  }
+
+  /* FIN CARRITO DE COMPRAS */
+  /* PERFIL USUARIO */
+  .header-profile {
+    /* background-color: lavender; */
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-datos-profile {
+    /* background-color: lightgreen; */
+    margin-left: 0;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .content-btn-perfil {
+    /* background-color: lavender; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .content-btn-perfil .btn-secundario {
+    margin-right: 0;
+    margin-top: 1rem;
+  }
+
+  .content-btn-perfil .btn {
+    width: 100%;
+  }
+
+  .content-btn-actions-perfil {
+    /* background-color: lavender; */
+    padding-top: 2rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .content-btn-actions-perfil .btn:first-child {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .content-btn-actions-perfil .btn, .content-btn-datos-envio .btn,
+  .bloque-direccion-envio .header-card .btn,
+  .text-confirmacion-compra .content-btn .btn {
+    width: 100%;
+  }
+
+  /* FIN PERFIL USUARIO */
+  /* VALES CONSUMO DETALLE */
+  .vale {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .vale-img-product {
+    width: calc(100vw - 48px);
+    /* height: calc(100vw - 48px); */
+    /* object-fit: cover; */
+  }
+
+  .vale-controls {
+    /* background-color: lightblue; */
+    width: 100%;
+  }
+
+  /* FIN VALES CONSUMO DETALLE */
+  /* CHECKOUT */
+  .content-terminosYcondiciones {
+    /* background-color: lavender; */
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+
+  /* FIN CHECKOUT */
+  /* Ticket entrada */
+  .wrap-vale-ticket {
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.5rem;
+    height: 550px;
+  }
+
+  .ticket {
+    width: 416px;
+    min-height: 240px;
+    padding: 1rem;
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    margin-top: 90px;
+  }
+
+  /* Fin Ticket entrada */
+}
+
+/* Fin cell portrait */
+/* Small cell portrait */
+@media (max-width: 360px) {
+
+  /* REGISTRO */
+  .btn-facebook, .btn-google, .btn-icon-left, .btn-icon-right, .btn-primario, .btn-secundario {
+    font-size: .8rem;
+  }
+
+  .passcode-wrapper input {
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    text-align: center;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+  }
+
+  /* FIN REGISTRO */
+  .content-menu-mobile {
+    background-color: var(--white);
+    min-height: 100vh;
+    padding: 1rem;
+  }
+
+  .content-menu-mobile-footer {
+    /* background-color: pink; */
+    text-align: center;
+    font-weight: 600;
+    padding-top: 1rem;
+  }
+
+  /* CARD BENEFICIOS CAROUSEL */
+  .content-card-carousel .card-body {
+    padding: .5rem;
+  }
+
+  .limited-label {
+    font-size: 6px;
+    left: .5rem;
+    top: 1rem;
+  }
+
+  .wrap-favorite {
+    /* background-color: rgba(50,50,50,.5); */
+    position: absolute;
+    padding: .5rem;
+    top: .5rem;
+    right: .5rem;
+  }
+
+  .wrap-price-card {
+    font-size: 13px;
+  }
+
+  /* FIN CARD BENEFICIOS CAROUSEL */
+  /* SECTION MIS ACTIVACIONES */
+  .header-section {
+    /* background-color: lightYellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .footer-section {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .grid-container-misActivaciones {
+    /* background-color: lightYellow; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 130px 85px;
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+
+  .grid-container-misActivaciones .item:first-child {
+    /* background-color: lightblue; */
+    grid-column: 1 / span 3;
+  }
+
+  /* FIN SECTION MIS ACTIVACIONES */
+  /* DETALLE PRODUCTO */
+  .content-btn-product {
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .content-btn-product .control-quantity {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  /* FIN DETALLE PRODUCTO */
+  /* CARRITO DE COMPRAS */
+  .card-carrito__controls-wrap {
+    /* background-color: lavender; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .card-carrito__price {
+    /* background-color: pink; */
+    white-space: nowrap;
+    font-size: 24px;
+    padding: 0;
+    text-align: right;
+    margin-bottom: .5rem;
+  }
+
+  /* FIN CARRITO DE COMPRAS */
+}
+
+/* Fin small cell portrait */

@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Mis vales - Bee Beneficios</title>
+	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+	<link rel="icon" href="img/icons/favicon.png" type="image/x-icon" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+	<link href="css/fonts.min.css" rel="stylesheet" type="text/css">
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/mq.css">
+
+</head>
+
+<body>
+	<!-- Overlay, must be placed direct after the opening body tag. -->
+	<div class="bs-canvas-overlay bs-canvas-anim bg-dark position-fixed w-100 h-100"></div>
+
+	<header class="bg-white">
+
+		<nav class="navbar navbar-top navbar-expand-lg">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="img/logos/logoBeeBeneficios.svg" alt="Logo bee Beneficios">
+				</a>
+				<div class="input-group input-search">
+					<div class="input-group-prepend">
+						<button class="btn btn-style-none" type="button" id="button-addon1">
+							<span class="material-icons">
+								search
+							</span>
+						</button>
+					</div>
+					<input type="text" list=text_editors class="form-control bg-white border-none form-control-style-none form-control-search" placeholder="Buscar">
+				</div>
+
+				<div class="content-user-profile-navbar ml-auto">
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+							<button class="btn btn-style-none dropdown-toggle btn-dropdown-perfil" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img src="img/profiles/perfil.png" class="img-user img-fluid" alt="Foto usuario">
+								<div class="greetings-user">
+									Hola <span class="name-user">Natalie</span>
+								</div>
+								<div class="material-icons">
+									expand_more
+								</div>
+							</button>
+							<div class="dropdown-menu dropdown-menu-right dropdown-menu-user shadow" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="perfil.html">
+									Perfil
+								</a>
+								<a class="dropdown-item" href="misbeneficios.html">
+									Mis beneficios
+								</a>
+								<a class="dropdown-item" href="activaciones.html">
+									Activaciones
+								</a>
+								<a class="dropdown-item" href="activaciones.html">
+									Favoritos
+								</a>
+								<a class="dropdown-item" href="activaciones.html">
+									beeRewards
+								</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="login.html">
+									Cerrar sesión
+								</a>
+							</div>
+						</li>
+					</ul>
+					<div class="user-location">
+						<span>Lima, Lima</span>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+	</header>
+
+	<!-- NAVBAR CATEGORIAS -->
+	<nav class="navbar navbar-expand-lg navbar-light main navbar-categorias bg-white nav-shadow sticky-top">
+		<div class="container">
+
+			<div class="navbar-collapse-categorias">
+				<ul class="navbar-nav menu-categorias">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">
+							Inicio
+						</a>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="restaurantes.html">
+							Restaurantes
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Planes</h6>
+										<hr>
+										<li>
+											<a href="veranoFeliz.html">Aventura</a>
+										</li>
+										<li>
+											<a href="veranoFeliz.html">Hoteles & Resorts</a>
+										</li>
+										<li>
+											<a href="veranoFeliz.html">Viajes & excursiones</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Cursos de verano</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Básicos para el calor</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="fastfood.html">
+							Fast Food
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Cine</h6>
+										<hr>
+										<li>
+											<a href="cartelera.html">AtWork</a>
+										</li>
+										<li>
+											<a href="login.html">login</a>
+										</li>
+										<li>
+											<a href="registro.html">Registro</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Conciertos</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Deportes</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="celebraciones.html">
+							Celebraciones
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Pastas</h6>
+										<hr>
+										<li>
+											<a href="#">Aventura</a>
+										</li>
+										<li>
+											<a href="#">Hoteles & Resorts</a>
+										</li>
+										<li>
+											<a href="#">Viajes & excursiones</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Marino</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Criollo</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="entretenimiento.html">
+							Entretenimiento
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Diseño</h6>
+										<hr>
+										<li>
+											<a href="#">Aventura</a>
+										</li>
+										<li>
+											<a href="#">Hoteles & Resorts</a>
+										</li>
+										<li>
+											<a href="#">Viajes & excursiones</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Web</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Marketing Digital</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="panaderia.html">
+							Panadería
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">List header</h6>
+										<hr>
+										<li>
+											<a href="#">Aventura</a>
+										</li>
+										<li>
+											<a href="#">Hoteles & Resorts</a>
+										</li>
+										<li>
+											<a href="#">Viajes & excursiones</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">List header</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">List header</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="educacion.html">
+							Educación
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Diseño</h6>
+										<hr>
+										<li>
+											<a href="#">Aventura</a>
+										</li>
+										<li>
+											<a href="#">Hoteles & Resorts</a>
+										</li>
+										<li>
+											<a href="#">Viajes & excursiones</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Web</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Marketing Digital</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="saludybelleza.html">
+							Salud y Belleza
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">List header</h6>
+										<hr>
+										<li>
+											<a href="#">Aventura</a>
+										</li>
+										<li>
+											<a href="#">Hoteles & Resorts</a>
+										</li>
+										<li>
+											<a href="#">Viajes & excursiones</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">List header</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">List header</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+				</ul>
+
+				<button class="btn material-icons-outlined shopping_cart-btn btn-style-none" role="button" data-toggle="canvas" data-target="#cart-desktop-home" aria-expanded="false" aria-controls="cart-desktop-home">
+					shopping_cart
+					<span class="badge-bee number-text-semiBold">04</span>
+				</button>
+			</div>
+		</div>
+	</nav>
+	<!-- FIN NAVBAR CATEGORIAS -->
+
+	<!-- Off-canvas sidebar markup, left/right or both. -->
+	<div id="bs-canvas-left" class="bs-canvas bs-canvas-anim bs-canvas-left position-fixed bg-light h-100">
+		<header class="bs-canvas-header p-3 bg-danger">
+			<h4 class="d-inline-block text-light mb-0">Canvas Header</h4>
+			<button type="button" class="bs-canvas-close close" aria-label="Close"><span aria-hidden="true" class="text-light">&times;</span></button>
+		</header>
+		<div class="bs-canvas-content px-3 py-5">
+
+		</div>
+	</div>
+
+	<div id="cart-desktop-home" class="cart-desktop bs-canvas bs-canvas-anim bs-canvas-right position-fixed">
+		<header class="header-shopping-cart overflow-auto">
+			<button type="button" class="btn bs-canvas-close float-left close-shopping-cart" aria-label="Close">
+				<span aria-hidden="true" class="material-icons">arrow_back</span>
+				<span class="hover-underline">
+					Seguir comprando
+				</span>
+			</button>
+
+		</header>
+		<div class="empty-cart-desktop">
+			<div class="empty-cart-content">
+				<span class="material-icons-outlined">
+					shopping_cart
+				</span>
+				<div class="info-empty-cart">
+					<h3>
+						¡Tu carrito de compras esta vacío!
+					</h3>
+				</div>
+			</div>
+		</div>
+		<div class="cart-content">
+			<div class="header-cart-content">
+				<h3>
+					Mis compras
+				</h3>
+				<div class="total-items">
+					<span>08</span> productos
+				</div>
+			</div>
+
+			<div class="items-cart-content custom-scrollbar">
+				<div class="item-cart">
+					<div class="detail-product">
+						<div class="brand-item-cart">
+							WONG
+						</div>
+						<div class="name-item-cart">
+							Coca-cola pack
+							<div class="description">
+								six pack + cooler
+							</div>
+						</div>
+					</div>
+					<div class="control-quantity">
+						<button type="button" name="button" class="dec qtybutton btn">-</button>
+						<input type="number" value="1" name="qtybutton" class="plus-minus-box">
+						<button type="button" name="button" class="inc qtybutton btn">+</button>
+					</div>
+					<div class="price-product">
+						s/ <span>40.00</span>
+					</div>
+				</div>
+				<div class="item-cart">
+					<div class="detail-product">
+						<div class="brand-item-cart">
+							Decameron hotels & resorts
+						</div>
+						<div class="name-item-cart">
+							Decameron El Pueblo
+							<div class="description">
+								Matrimonial - $ 190.00 Lorem ipsum dolor.
+							</div>
+						</div>
+					</div>
+					<div class="control-quantity">
+						<button type="button" name="button" class="dec qtybutton btn">-</button>
+						<input type="number" value="1" name="qtybutton" class="plus-minus-box">
+						<button type="button" name="button" class="inc qtybutton btn">+</button>
+					</div>
+					<div class="price-product">
+						s/ <span>856.00</span>
+					</div>
+				</div>
+				<div class="item-cart">
+					<div class="detail-product">
+						<div class="brand-item-cart">
+							D’onofrio
+						</div>
+						<div class="name-item-cart">
+							Alaska family pack
+							<div class="description">
+								pack x12
+							</div>
+						</div>
+					</div>
+					<div class="control-quantity">
+						<button type="button" name="button" class="dec qtybutton btn">-</button>
+						<input type="number" value="1" name="qtybutton" class="plus-minus-box">
+						<button type="button" name="button" class="inc qtybutton btn">+</button>
+					</div>
+					<div class="price-product">
+						s/ <span>48.00</span>
+					</div>
+				</div>
+				<div class="item-cart">
+					<div class="detail-product">
+						<div class="brand-item-cart">
+							Decameron hotels & resorts
+						</div>
+						<div class="name-item-cart">
+							Decameron El Pueblo
+							<div class="description">
+								Matrimonial - $ 190.00 Lorem ipsum dolor.
+							</div>
+						</div>
+					</div>
+					<div class="control-quantity">
+						<button type="button" name="button" class="dec qtybutton btn">-</button>
+						<input type="number" value="1" name="qtybutton" class="plus-minus-box">
+						<button type="button" name="button" class="inc qtybutton btn">+</button>
+					</div>
+					<div class="price-product">
+						s/ <span>856.00</span>
+					</div>
+				</div>
+				<div class="item-cart">
+					<div class="detail-product">
+						<div class="brand-item-cart">
+							D’onofrio
+						</div>
+						<div class="name-item-cart">
+							Alaska family pack
+							<div class="description">
+								pack x12
+							</div>
+						</div>
+					</div>
+					<div class="control-quantity">
+						<button type="button" name="button" class="dec qtybutton btn">-</button>
+						<input type="number" value="1" name="qtybutton" class="plus-minus-box">
+						<button type="button" name="button" class="inc qtybutton btn">+</button>
+					</div>
+					<div class="price-product">
+						s/ <span>48.00</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="footer-cart-content">
+				<div class="content-total-price">
+					<div class="label">
+						TOTAL
+					</div>
+					<div class="total-price">
+						s/ <span>949.00</span>
+						<div class="regular-price">
+							s/ 1850.00
+						</div>
+					</div>
+				</div>
+
+				<div class="content-saved-money">
+					<div class="label">
+						Ahorraste
+					</div>
+					<div class="saved-money">
+						s/ <span>901.00</span>
+					</div>
+				</div>
+			</div>
+			<div class="info-cart">
+				💳 Paga con tu tarjeta <span>American Express</span> <br>
+				y obtén 10% de descuento adicional
+			</div>
+			<div class="content-btn">
+				<a href="carritoCompras.html" class="btn btn-primario btn-large">
+					Finalizar compra
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- FIN SIDEBAR OFF CANVAS -->
+
+	<main>
+
+		<a href="https://api.whatsapp.com/send?phone=+51966337361" target="_blank" class="whatsapp">
+			<i class="fab fa-whatsapp"></i>
+		</a>
+
+		<!-- NAVBAR MOBILE -->
+		<nav class="navbar navbar-top-mobile navbar-main-mobile bg-white nav-shadow fixed-top">
+			<a class="navbar-brand" href="index.html">
+				<img src="img/logos/logoBeeBeneficios.svg" alt="Logo bee Beneficios">
+			</a>
+
+			<button class="btn nav-link closeSearcherMobile btn-style-none pr-0" href="#" id="btnMenuMobile">
+				<span class="material-icons">menu</span>
+			</button>
+		</nav>
+
+		<nav class="navbar navbar-bottom-mobile navbar-main-mobile bg-white fixed-bottom">
+			<a href="index.html" class="btn nav-link closeMenuMobile closeMenuPerfilMobile closeSearcherMobile btn-style-none" href="index.html">
+				<span class="material-icons">home</span>
+			</a>
+
+			<button class="btn nav-link closeMenuMobile closeMenuPerfilMobile btn-style-none" href="#" id="btnSearcherMobile">
+				<span class="material-icons-outlined">search</span>
+			</button>
+
+			<a class="btn nav-link closeMenuMobile closeSearcherMobile" href="carrito.html">
+				<span class="material-icons-outlined">shopping_cart</span>
+				<span class="badge-bee number-text-extraBold">10</span>
+			</a>
+
+			<button class="btn nav-link btn-style-none closeMenuMobile closeSearcherMobile" id="btnMenuPerfilMobile">
+				<img src="img/profiles/perfil.png" class="img-user img-fluid" alt="Foto usuario">
+				<!-- <span class="material-icons-outlined">person</span> -->
+			</button>
+		</nav>
+
+		<div class="main-menu-mobile">
+			<div class="header-main-menu-mobile sticky-top shadow">
+				<h3 class="menu-mobile_title">
+					Categorias
+				</h3>
+
+				<button type="button" name="button" class="btn btnClose closeMenuMobile">
+					<span class="material-icons">
+						close
+					</span>
+				</button>
+			</div>
+			<div class="content-menu-mobile">
+				<ul class="list-group menu-mobile">
+					<li class="list-group-item border-none-">
+						<a href="restaurantes.html">
+							<h3 class="list-group-item_categoria">
+								Restaurantes
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item border-none-">
+						<a href="restaurantes.html">
+							<h3 class="list-group-item_categoria">
+								Fast food
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item border-none-">
+						<a href="celebraciones.html">
+							<h3 class="list-group-item_categoria">
+								Celebraciones
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item border-none-">
+						<a href="entretenimiento.html">
+							<h3 class="list-group-item_categoria">
+								Entretenimiento
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item border-none-">
+						<a href="panaderia.html">
+							<h3 class="list-group-item_categoria">
+								Panadería
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item border-none-">
+						<a href="educacion.html">
+							<h3 class="list-group-item_categoria">
+								Educación
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item border-none-">
+						<a href="saludybelleza.html">
+							<h3 class="list-group-item_categoria">
+								Salud y Belleza
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+				</ul>
+
+				<!-- <div class="content-menu-mobile-footer">
+					<p>
+						Beneficio Exclusivo
+					</p>
+					<img src="img/logos/logos_empresas/header_top/colmena.png" alt="Logo empresa usuario">
+				</div> -->
+
+			</div>
+		</div>
+
+		<div class="searcher-mobile">
+			<div class="header-searcher-mobile nav-shadow sticky-top">
+				<div class="input-group input-search input-search-mobile">
+					<input type="text" class="form-control bg-white border-none form-control-style-none form-control-search" placeholder="Buscar" aria-label="Example text with button addon" aria-describedby="button-addon1">
+					<div class="input-group-prepend">
+						<button class="btn bg-white btn-style-none" type="button" id="button-addon1">
+							<span class="material-icons">
+								search
+							</span>
+						</button>
+					</div>
+				</div>
+				<button type="button" name="button" class="btn btnClose closeSearcherMobile pr-0">
+					<span class="material-icons">
+						close
+					</span>
+				</button>
+			</div>
+			<div class="searcher-content-categories">
+
+				<div class="container">
+					<div class="grid-container-categorias-mobile">
+						<div class="item item1 card-shadow">
+							<a href="bienestar.html">
+								<div class="overlay">
+									<div class="text">
+										<h3 class="category-name">
+											Fast food
+										</h3>
+										<p class="brands-salient-category">
+											Pizza Hut · KFC · Pinkberry · Starbucks
+										</p>
+										<div>
+											<span class="tag-producto-exclusivo position-inherit bg-TagProductoExclusivo">
+												Producto exclusivo
+											</span>
+										</div>
+									</div>
+								</div>
+								<img src="img/bg/categorias/restaurantes.jpg" alt="categoría Fast food">
+							</a>
+						</div>
+						<div class="item item2 card-shadow">
+							<a href="entretenimiento.html">
+								<div class="overlay">
+									<div class="text">
+										<h3 class="category-name">
+											Entretenimiento
+										</h3>
+									</div>
+								</div>
+								<img src="img/bg/categorias/entretenimiento.jpg" alt="categoría Entretenimiento">
+							</a>
+						</div>
+						<div class="item item3 card-shadow">
+							<a href="restaurantes.html">
+								<div class="overlay">
+									<div class="text">
+										<h3 class="category-name">
+											Restaurantes
+										</h3>
+									</div>
+								</div>
+								<img src="img/bg/categorias/restaurantes.jpg" alt="categoría Restaurantes">
+							</a>
+						</div>
+						<div class="item item4 card-shadow">
+							<a href="educacion.html">
+								<div class="overlay">
+									<div class="text">
+										<h3 class="category-name">
+											Educación
+										</h3>
+									</div>
+								</div>
+								<img src="img/bg/categorias/educacion.jpg" alt="categoría Educación">
+							</a>
+						</div>
+						<div class="item item5 card-shadow">
+							<a href="bienestar.html">
+								<div class="overlay">
+									<div class="text">
+										<h3 class="category-name">
+											Bienestar
+										</h3>
+									</div>
+								</div>
+								<img src="img/bg/categorias/bienestar.jpg" alt="categoría Bienestar">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="menu-perfil-mobile">
+			<div class="header-main-menu-mobile sticky-top shadow">
+				<h3 class="menu-mobile_title">
+					Mi perfil
+				</h3>
+
+				<button type="button" name="button" class="btn btnClose closeMenuPerfilMobile">
+					<span class="material-icons">
+						close
+					</span>
+				</button>
+			</div>
+			<div class="content-menu-mobile">
+				<ul class="list-group menu-mobile">
+					<!-- <li class="list-group-item list-group-item-title">
+						<h3 class="list-title-item">
+							Mi perfil
+						</h3>
+					</li> -->
+
+					<li class="list-group-item">
+						<a href="perfil.html">
+							<h3 class="list-group-item_categoria">
+								Datos personales
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="perfil.html">
+							<h3 class="list-group-item_categoria">
+								Mi empresa
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="perfil.html">
+							<h3 class="list-group-item_categoria">
+								Mis direcciones
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+
+					<!-- <li class="list-group-item list-group-item-title">
+						<h3 class="list-title-item">
+							Acciones
+						</h3>
+					</li> -->
+					<li class="list-group-item">
+						<a href="favoritos.html">
+							<h3 class="list-group-item_categoria">
+								Favoritos
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="activaciones.html">
+							<h3 class="list-group-item_categoria">
+								Activaciones
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="compras.html">
+							<h3 class="list-group-item_categoria">
+								Compras
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+				</ul>
+
+				<div class="content-btns-menu-profile-mobile">
+					<button type="button" class="btn btn-link text-link btn-style-none">
+						Cerrar sesión
+					</button>
+				</div>
+			</div>
+		</div>
+		<!-- FIN NAVBAR MOBILE -->
+
+		<!-- TEXT BANNER -->
+		<div class="section banner banner-categoria bg-banner-activaciones">
+			<div class="container">
+				<div class="row">
+					<div class="text-banner text-white col-lg-5">
+						<H2 class="big-title">
+							Mis vales
+						</H2>
+						<p class="message-banner-activaciones">
+							Encuentra tus vales y canjealos cuando quieras. Encuentra tus
+							vales y canjealos cuando quieras.
+						</p>
+
+						<a href="#" class="btn btn-primario btn-large">
+							¿Cómo canjeo mis vales?
+						</a>
+					</div>
+
+					<div class="content-logo-empresa-banner col-lg-6 d-none">
+						<img src="img/logos/logos_empresas/papa-johns-logo.png" class="logo-empresa-banner" alt="Colmena">
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- FIN TEXT BANNER -->
+
+
+		<!-- FILTROS MOBILE -->
+
+		<div class="menu-filter-mobile">
+			<div class="header-main-menu-mobile sticky-top shadow">
+				<h3 class="menu-mobile_title">
+					Filtrar
+				</h3>
+
+				<button type="button" name="button" class="btn btnClose closeFilterMobile">
+					<span class="material-icons">
+						close
+					</span>
+				</button>
+			</div>
+			<div class="content-filter-mobile">
+				<div class="wrap-content-filter-mobile">
+					<div id="accordion" class="accordion accordion-filter">
+						<div class="card border-none mb-0">
+							<div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
+								<a class="card-title">
+									Categorías
+								</a>
+							</div>
+							<div id="collapseOne" class="card-body collapse" data-parent="#accordion">
+								<div class="sub-category">
+									<h4 class="sub-category-title">Pollo</h4>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck1">
+										<label class="custom-control-label" for="customCheck1">Popeye's</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck2">
+										<label class="custom-control-label" for="customCheck2">Roky's</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck3">
+										<label class="custom-control-label" for="customCheck3">KFC</label>
+									</div>
+								</div>
+								<hr>
+								<div class="sub-category">
+									<h4 class="sub-category-title">Hamburguesas</h4>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck4">
+										<label class="custom-control-label" for="customCheck4">Bembos</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck5">
+										<label class="custom-control-label" for="customCheck5">Burguer King</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck6">
+										<label class="custom-control-label" for="customCheck6">McDonalds</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck7">
+										<label class="custom-control-label" for="customCheck7">Juicy Lucy</label>
+									</div>
+								</div>
+								<hr>
+								<div class="sub-category">
+									<h4 class="sub-category-title">Comida asiática</h4>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck8">
+										<label class="custom-control-label" for="customCheck8">China Wok</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck9">
+										<label class="custom-control-label" for="customCheck9">Mr. Shao</label>
+									</div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck10">
+										<label class="custom-control-label" for="customCheck10">Toku</label>
+									</div>
+								</div>
+							</div>
+							<div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+								<a class="card-title">
+									Marca
+								</a>
+							</div>
+							<div id="collapseTwo" class="card-body collapse" data-parent="#accordion">
+								<p>
+									craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								</p>
+							</div>
+							<div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+								<a class="card-title">
+									Precio
+								</a>
+							</div>
+							<div id="collapseThree" class="card-body collapse" data-parent="#accordion">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, libero?
+								</p>
+							</div>
+							<div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+								<a class="card-title">
+									Lugar de canje
+								</a>
+							</div>
+							<div id="collapseFour" class="card-body collapse" data-parent="#accordion">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique repellat, rem commodi!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-filter-mobile">
+				<button type="button" name="button" class="btn btn-primario btn-large mx-auto closeFilterMobile">
+					Aplicar filtros
+				</button>
+			</div>
+		</div>
+
+		<div class="menu-order-mobile">
+			<div class="header-main-menu-mobile sticky-top shadow">
+				<h3 class="menu-mobile_title">
+					Ordenar por
+				</h3>
+
+				<button type="button" name="button" class="btn btnClose closeOrderMobile">
+					<span class="material-icons">
+						close
+					</span>
+				</button>
+			</div>
+			<div class="content-menu-mobile">
+				<div class="form-group form-group-customRadio">
+					<div class="custom-control custom-radio">
+						<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked="">
+						<label class="custom-control-label" for="customRadio1">Recomendados</label>
+					</div>
+					<div class="custom-control custom-radio">
+						<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+						<label class="custom-control-label" for="customRadio2">Menor precio</label>
+					</div>
+					<div class="custom-control custom-radio">
+						<input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+						<label class="custom-control-label" for="customRadio3">Mayor precio</label>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FIN FILTROS MOBILE -->
+
+		<!-- SECTION MIS ACTIVACIONES -->
+		<section class="section-color">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="header-section">
+							<h2 class="title-section">
+								Mis vales de consumo:
+							</h2>
+						</div>
+
+
+					</div>
+				</div>
+
+				<section class="section-wrap-cards wrap-cards-vales">
+					<div class="row">
+						<div class="content-card">
+							<div class="card card-product h-100">
+								<div class="wrap-favorite">
+									<i class="far fa-heart favorite">
+									</i>
+								</div>
+								<a href="producto_moda.html">
+									<div class="wrap-card-body-footer">
+										<div class="card-body">
+											<div class="content-card-img">
+												<div class="limited-label d-none">
+													🔥 por tiempo limitado
+												</div>
+												<img src="img/products/cards/papa_jhons/americana_familiar_pj.png" class="card-img-top img-fluid" alt="America familiar">
+												<div class="content-img-logo">
+												<img src="img/products/cards/logoKA.png" class="card-img-logo" alt="Logotipo Racing Dakart Perú">
+											</div>
+											</div>
+											<div class="description-card">
+												<div class="description-content">
+													<div class="description-content-top">
+														<div class="content-tags-card-product">
+															<span class="tag-card-product bg-tagPrimary">
+																Te quedan 10 días
+															</span>
+															<span class="tag-card-product bg-tagSecondary d-none">
+																40% dscto
+															</span>
+														</div>
+														<h5 class="brand-card">
+															Papa John’s
+														</h5>
+														<h4 class="name-product-card">
+															Americana Familiar
+															<!-- Americana Familiar -->
+														</h4>
+														<p class="card-text line-clamp line-clamp-2">
+															Tienes 02 vales de consumo
+														</p>
+														<div class="stock-label d-none">
+															🔥 solo quedan 10
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card-footer border-none">
+											<a href="valeConsumo.html" class="btn btn-primario btn-block">
+												Ver vale de consumo
+											</a>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="content-card">
+							<div class="card card-product h-100">
+								<div class="wrap-favorite">
+									<i class="far fa-heart favorite">
+									</i>
+								</div>
+								<a href="producto_moda.html">
+									<div class="wrap-card-body-footer">
+										<div class="card-body">
+											<div class="content-card-img">
+												<div class="limited-label d-none">
+													🔥 por tiempo limitado
+												</div>
+												<img src="img/products/cards/starbucks.png" class="card-img-top img-fluid" alt="Pizza Works familiar">
+												<div class="content-img-logo">
+													<img src="img/products/cards/logoKA.png" class="card-img-logo" alt="Logotipo Racing Dakart Perú">
+												</div>
+											</div>
+											<div class="description-card">
+												<div class="description-content">
+													<div class="description-content-top">
+														<div class="content-tags-card-product">
+															<span class="tag-card-product bg-tagPrimary d-none">
+																Cyberwow
+															</span>
+															<span class="tag-card-product bg-tagSecondary d-none">
+																40% dscto
+															</span>
+														</div>
+														<h5 class="brand-card">
+															Papa John’s
+														</h5>
+														<h4 class="name-product-card">
+															The Works Familiar
+														</h4>
+														<p class="card-text line-clamp line-clamp-2">
+															Tienes 02 vales de consumo
+														</p>
+														<div class="stock-label d-none">
+															🔥 solo quedan 10
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card-footer border-none">
+											<a href="valeConsumo.html" class="btn btn-primario btn-block">
+												Ver vale de consumo
+											</a>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="content-card">
+							<div class="card card-product h-100">
+								<div class="wrap-favorite">
+									<i class="far fa-heart favorite">
+									</i>
+								</div>
+								<a href="producto_moda.html">
+									<div class="wrap-card-body-footer">
+										<div class="card-body">
+											<div class="content-card-img">
+												<div class="limited-label d-none">
+													🔥 por tiempo limitado
+												</div>
+												<img src="img/atwork/tickets/entrada.png" class="card-img-top img-fluid" alt="Pizza Works familiar">
+												<div class="content-img-logo">
+													<img src="img/products/cards/logoCineplanet.png" class="card-img-logo" alt="Logotipo Cineplanet">
+												</div>
+											</div>
+											<div class="description-card">
+												<div class="description-content">
+													<div class="description-content-top">
+														<div class="content-tags-card-product">
+															<span class="tag-card-product bg-tagPrimary d-none">
+																Cyberwow
+															</span>
+															<span class="tag-card-product bg-tagSecondary d-none">
+																40% dscto
+															</span>
+														</div>
+														<h5 class="brand-card">
+															Cineplanet
+														</h5>
+														<h4 class="name-product-card">
+															Entrada Estándar
+														</h4>
+														<p class="card-text line-clamp line-clamp-2">
+															Tienes 02 vales de consumo
+														</p>
+														<div class="stock-label d-none">
+															🔥 solo quedan 10
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="card-footer border-none">
+											<a href="ticketAtWork.html" class="btn btn-primario btn-block">
+												Ver vale de consumo
+											</a>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</section>
+			</div>
+		</section>
+		<!-- FIN SECTION MIS ACTIVACIONES -->
+	</main>
+
+	<footer>
+		<div class="footer-main">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-3">
+						<ul class="list-group-footer">
+							<li class="list-group-item">
+								<h2>Nosotros</h2>
+							</li>
+							<li class="list-group-item">
+								<a href="" data-toggle="modal" data-target=".modal-acercaDeBee">
+									Acerca de Bee
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="" data-toggle="modal" data-target=".modal-sobreBeeBeneficios">
+									Sobre BeeBeneficios
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="preguntasFrecuentes.html" target="_blank">
+									Preguntas frecuentes
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<ul class="list-group-footer">
+							<li class="list-group-item">
+								<h2>BeeBeneficios</h2>
+							</li>
+							<li class="list-group-item">
+								<a href="terminosYcondiciones.html" target="_blank">
+									Términos & condiciones
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="politicasDePrivacidad.html" target="_blank">
+									Políticas de privacidad
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="" data-toggle="modal" data-target=".modalLibroReclamaciones">
+									Libro de reclamaciones
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<ul class="list-group-footer">
+							<li class="list-group-item">
+								<h2>¿Tienes alguna duda?</h2>
+							</li>
+							<li class="list-group-item">
+								Llámanos al <br>
+								992 192 643 /
+								973 249 489 <br>
+								Lunes a Viernes: 9:00 am - 6:00 pm <br>
+								Sábados: 9:00 am - 1:00 pm
+							</li>
+							<li class="list-group-item">
+								o escríbenos a <br>
+								hola@bee.com.pe
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container-fluid">
+				<img src="img/logos/logoPoweredBee.png" alt="">
+			</div>
+		</div>
+	</footer>
+
+	<!-- MODALS -->
+	<!-- Modal -->
+	<!-- Modal Acerca de Bee-->
+	<div class="modal fade modal-bee modal-acercaDeBee" id="modal-acercaDeBee" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="form-step1">
+					<div class="modal-body">
+						<div class="header-modal-bee">
+							<!-- <img src="img/icons/isotipo-bee-fondo.png" alt=""> -->
+							<h5 class="modal-title" id="exampleModalScrollableTitle">
+								Acerca de Bee
+							</h5>
+							<div class="content-modal-bee">
+								<p>
+									bee acompaña tus propósitos creando e impulsando soluciones
+									creativas para atender las necesidades de sus clientes,
+									corporativos o finales, brindándoles plataformas digitales
+									que les permitan obtener beneficios, a través de alianzas con
+									otras empresas, integrándolas y acompañándolas en el logro de su visión.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin modal Acerca de Bee-->
+
+	<!-- Modal Sobre BeeBeneficios-->
+	<div class="modal fade modal-bee modal-sobreBeeBeneficios" id="modal-acercaDeBee" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="form-step1">
+					<div class="modal-body">
+						<div class="header-modal-bee">
+							<!-- <img src="img/icons/isotipo-bee-fondo.png" alt=""> -->
+							<h5 class="modal-title" id="exampleModalScrollableTitle">
+								Sobre BeeBeneficios
+							</h5>
+							<div class="content-modal-bee">
+								<p>
+									Es una programa que atiende a empresas y sus trabajadores a
+									través de activaciones presenciales con visitas "in house" y
+									digitales a través de una plataforma digital. Acercamos las
+									marcas a clientes potenciales a través de nuestra plataforma y
+									generamos interacción con ellos con el apoyo de las áreas de gestión humana.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin modal Sobre BeeBeneficios-->
+	<!-- FIN MODALS -->
+
+
+
+	<!--   Bootstrap JS Files   -->
+	<script src="js/bootstrap/jquery.3.2.1.min.js"></script>
+	<script src="js/bootstrap/popper.min.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="js/offcanvas.js"></script>
+	<!-- <script src="js/countdown.js"></script> -->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

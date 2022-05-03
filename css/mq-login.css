@@ -1,0 +1,98 @@
+/* Laptop */
+@media (max-width: 1366px) {
+
+}
+
+/* Fin laptop */
+/* Tablet landscape */
+@media (max-width: 1024px) {
+
+}
+
+/* Fin tablet landscape */
+/* Big cell landscape */
+@media (max-width: 823px) {
+  .list-group-footer .list-group-item {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+}
+
+/* Fin cell landscape */
+/* Tablet portrait */
+@media (max-width: 768px) {
+  .wrap-bg-login {
+    /* background-color: lightgreen; */
+    min-height: 90vh;
+    display: none;
+  }
+
+}
+
+/* fin tablet portrait */
+/* Cell landscape */
+@media (max-width: 736px) {
+  .title-login {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Fin cell landscape */
+/* Small cell landscape */
+@media (max-width: 568px) {
+
+}
+
+/* Fin small cell landscape */
+/* Cell portrait */
+@media (max-width: 480px) {
+  .header-login-mobile {
+    /* background-color: var(--yellow); */
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .form-login img {
+    margin: 3rem 0;
+    height: 28px;
+    display: none;
+  }
+
+  .form-login {
+    /* background-color: lavender; */
+    max-width: 450px;
+    padding-bottom: 2rem;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .wrap-form-login {
+    /* background-color: peru; */
+    display: flex;
+    justify-content: center;
+    min-height: auto;
+  }
+
+  /* REGISTRO */
+  .wrap-right-registro {
+    padding: 0;
+  }
+  /* FIN REGISTRO */
+}
+
+/* Fin cell portrait */
+/* Small cell portrait */
+@media (max-width: 360px) {
+
+}
+
+/* Fin small cell portrait */

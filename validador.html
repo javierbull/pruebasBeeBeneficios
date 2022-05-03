@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Validador beeBeneficios</title>
+	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+	<link rel="icon" href="img/icons/favicon.png" type="image/x-icon" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+	<link href="css/fonts.min.css" rel="stylesheet" type="text/css">
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="js/plugin/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/mq.css">
+
+	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
+
+</head>
+
+<body>
+	<main class="main-login">
+		<a href="https://api.whatsapp.com/send?phone=+51966337361" target="_blank" class="whatsapp">
+			<i class="fab fa-whatsapp"></i>
+		</a>
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav mx-auto navbar-login">
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="modal" data-target=".modal-sobreBeeBeneficios">Sobre beeBeneficios</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="pasosRegistro.html" target="_blank">Pasos de registro</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="preguntasFrecuentes.html" target="_blank">Preguntas frecuentes</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="row">
+				<div class="container-form-login">
+					<img src="img/logos/logoBeeBeneficios.svg" class="logo-form-login" alt="Logotipo Bee Beneficios">
+					<form class="form-login nav-shadow">
+
+						<fieldset id="fieldsetValidador">
+							<h2 class="title-login">
+								¡Bienvenido!
+							</h2>
+							<p class="info-form">
+								¿De qué empresa vienes?
+							</p>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="inputState">Tipo de documento</label>
+									<select id="inputState" class="form-control">
+										<option selected>Selecciona</option>
+										<option>DNI</option>
+										<option>Carnet de extranjería</option>
+									</select>
+									<div class="invalid-feedback">
+										Número incorrecto
+									</div>
+								</div>
+								<div class="form-group col-md-6">
+									<label for="inputId">Número de documento</label>
+									<input type="number" class="form-control" id="inputId">
+									<div class="invalid-feedback">
+										Número incorrecto
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="inputCodigoEmpresa">Código de empresa</label>
+									<input type="text" class="form-control" id="inputCodigoEmpresa">
+									<div class="invalid-feedback">
+										Código incorrecto
+									</div>
+								</div>
+								<div class="form-group col-md-6">
+									<label for="inputEmpresa">Empresa</label>
+									<input type="text" class="form-control" id="inputEmpresa" value="Colmena Solutions" disabled>
+									<!-- <div class="invalid-feedback">
+									Número incorrecto
+								</div> -->
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="inputState">Sede</label>
+								<select id="inputState" class="form-control line-clamp-input">
+									<option selected>Selecciona tu sede</option>
+									<option>sbncjdb cdnjdbcdj cdbjbcjd cbjdbcjdb cbjdbcj ddddddddd</option>
+									<option>Lince</option>
+									<option>Magdalena</option>
+								</select>
+								<div class="invalid-feedback">
+									Selecciones una sede
+								</div>
+							</div>
+
+							<div class="wrap-btns-login">
+
+								<a href="#" id="nextRegistroRedes" class="btn btn-icon-right btn-primario btn-block">
+									Continuar
+									<span class="material-icons-outlined">
+										arrow_forward
+									</span>
+								</a>
+
+								<div class="link-registro">
+									¿Ya tienes cuenta?
+									<a href="login.html" class="btn btn-link">
+										Ingresa aquí
+									</a>
+								</div>
+							</div>
+						</fieldset>
+
+						<fieldset id="fieldsetRegistroRedes">
+							<h2 class="title-login">
+								Regístrate
+							</h2>
+							<p class="info-form">
+								Y comienza a disfrutar de tus beneficios
+							</p>
+
+							<div class="wrap-btns-login pt-0">
+
+								<button type="button" class="btn btn-social btn-facebook d-none">
+									<img src="img/icons/facebook.png" alt="Facebook">
+									Regístrate con Facebook
+								</button>
+
+								<button type="button" class="btn btn-social btn-google mb-0">
+									<img src="img/icons/google.png" alt="Google">
+									Regístrate con Google
+								</button>
+
+								<hr>
+
+								<a href="#" id="nextRegistroPaso1" class="btn btn-primario btn-block btn-icon-left">
+									<span class="material-icons-outlined">
+										email
+									</span>
+									Regístrate con tu correo
+								</a>
+
+								<a href="#" id="backValidador" class="btn btn-secundario btn-large">
+									Regresar
+								</a>
+
+							</div>
+						</fieldset>
+
+						<fieldset id="fieldsetRegistroPaso1">
+							<h2 class="title-login">
+								Crea tu cuenta
+							</h2>
+							<p class="info-form">
+								Paso 01 de 02
+							</p>
+							<div class="form-group">
+								<label for="inputNombres">Nombres</label>
+								<input type="text" class="form-control" id="inputNombres">
+								<div class="invalid-feedback">
+									Ingrese su nombre
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="inputApellidoPaterno">Apellido paterno</label>
+									<input type="text" class="form-control" id="inputApellidoPaterno">
+									<div class="invalid-feedback">
+										Ingrese su apellido paterno
+									</div>
+								</div>
+								<div class="form-group col-md-6">
+									<label for="inputApellidoMaterno">Apellido materno</label>
+									<input type="text" class="form-control" id="inputApellidoMaterno">
+									<div class="invalid-feedback">
+										Ingrese su apellido materno
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="inputCelular">Celular</label>
+									<input type="text" class="form-control" id="inputCelular">
+									<div class="invalid-feedback">
+										Ingrese su celular
+									</div>
+								</div>
+
+								<div class="form-group col-md-6">
+									<label for="inputState">Fecha de nacimiento</label>
+									<div class="group-fecha">
+										<select id="inputState" class="form-control">
+											<option selected>dd</option>
+											<option>01</option>
+											<option>02</option>
+											<option>03</option>
+											<option>04</option>
+											<option>05</option>
+											<option>06</option>
+											<option>07</option>
+											<option>08</option>
+											<option>09</option>
+											<option>10</option>
+											<option>11</option>
+											<option>12</option>
+											<option>13</option>
+											<option>14</option>
+											<option>15</option>
+											<option>16</option>
+											<option>17</option>
+											<option>18</option>
+											<option>19</option>
+											<option>20</option>
+											<option>21</option>
+											<option>22</option>
+											<option>23</option>
+											<option>24</option>
+											<option>25</option>
+											<option>26</option>
+											<option>27</option>
+											<option>28</option>
+											<option>29</option>
+											<option>30</option>
+											<option>31</option>
+										</select>
+										<select id="inputState" class="form-control">
+											<option selected>mm</option>
+											<option>Enero</option>
+											<option>Febrero</option>
+											<option>Marzo</option>
+											<option>Abril</option>
+											<option>Mayo</option>
+											<option>Junio</option>
+											<option>Julio</option>
+											<option>Agosto</option>
+											<option>Setiembre</option>
+											<option>Octubre</option>
+											<option>Noviembre</option>
+											<option>Diciembre</option>
+										</select>
+										<select id="inputState" class="form-control">
+											<option selected>aaaa</option>
+											<option>1950</option>
+											<option>1960</option>
+											<option>1970</option>
+											<option>1980</option>
+											<option>1990</option>
+											<option>2000</option>
+											<option>2010</option>
+											<option>2020</option>
+										</select>
+									</div>
+									<div class="invalid-feedback">
+										Selecciona tu ciudad
+									</div>
+								</div>
+
+								<!-- <div class="form-group col-md-6">
+									<label for="datepicker">Fecha de nacimiento</label>
+									<div id="datepicker" class="input-group controls" data-date-format="dd-mm-yyyy">
+										<input class="form-control js-datepicker datePicker" type="text" readonly="readonly" placeholder="29/01/2021">
+									</div>
+									<div class="invalid-feedback">
+										Ingrese su fecha de nacimiento
+									</div>
+								</div> -->
+
+							</div>
+
+							<div class="wrap-btns-login">
+
+								<a href="#" id="nextRegistroPaso2" class="btn btn-icon-right btn-primario btn-block">
+									Continuar
+									<span class="material-icons-outlined">
+										arrow_forward
+									</span>
+								</a>
+
+								<a href="#" id="backRegistroRedes" class="btn btn-secundario btn-large">
+									Regresar
+								</a>
+
+							</div>
+						</fieldset>
+
+						<fieldset id="fieldsetRegistroPaso2">
+							<h2 class="title-login">
+								Crea tu cuenta
+							</h2>
+							<p class="info-form">
+								Paso 02 de 02
+							</p>
+							<div class="form-group">
+								<label for="inputEmail">Correo electrónico</label>
+								<input type="email" class="form-control" id="inputEmail">
+								<div class="invalid-feedback">
+									Correo inválido
+								</div>
+							</div>
+
+
+							<div class="form-group">
+								<label for="inputConfirmEmail">Confirmar tu correo electrónico</label>
+								<input type="email" class="form-control" id="inputConfirmEmail">
+								<div class="invalid-feedback">
+									Correo inválido
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="inputPassword" class="label-help">
+									Nueva contraseña
+								</label>
+								<input id="password-field-signup" type="password" class="form-control" name="password">
+								<span toggle="#password-field-signup" class="fa fa-fw fa-eye-slash field-icon toggle-password"></span>
+								<div class="invalid-feedback">
+									Formato incorrecto
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="inputPassword" class="label-help">
+									Confirma tu nueva contraseña
+								</label>
+								<input id="password-field-signup-repeat" type="password" class="form-control" name="password">
+								<span toggle="#password-field-signup-repeat" class="fa fa-fw fa-eye-slash field-icon toggle-password"></span>
+								<div class="invalid-feedback">
+									Formato incorrecto
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="custom-control custom-checkbox">
+									<input type="checkbox" class="custom-control-input" id="customCheckTerminos">
+									<label class="custom-control-label" for="customCheckTerminos">
+										Acepto las
+										<a href="terminosYcondiciones.html" class="link-bee" target="_blank">
+											Términos y condiciones
+										</a>
+									</label>
+								</div>
+							</div>
+
+
+							<div class="wrap-btns-login">
+
+								<a href="confirmacionRegistro.html"  class="btn btn-icon-right btn-primario btn-block">
+									Crear cuenta
+								</a>
+
+								<a href="#" id="backRegistroPaso1" class="btn btn-secundario btn-large">
+									Regresar
+								</a>
+
+							</div>
+						</fieldset>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer-main">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-3">
+						<ul class="list-group-footer">
+							<li class="list-group-item">
+								<h2>Nosotros</h2>
+							</li>
+							<li class="list-group-item">
+								<a href="" data-toggle="modal" data-target=".modal-acercaDeBee">
+									Acerca de Bee
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="" data-toggle="modal" data-target=".modal-sobreBeeBeneficios">
+									Sobre BeeBeneficios
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="preguntasFrecuentes.html" target="_blank">
+									Preguntas frecuentes
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<ul class="list-group-footer">
+							<li class="list-group-item">
+								<h2>BeeBeneficios</h2>
+							</li>
+							<li class="list-group-item">
+								<a href="terminosYcondiciones.html" target="_blank">
+									Términos & condiciones
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="politicasDePrivacidad.html" target="_blank">
+									Políticas de privacidad
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="" data-toggle="modal" data-target=".modalLibroReclamaciones">
+									Libro de reclamaciones
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<ul class="list-group-footer">
+							<li class="list-group-item">
+								<h2>¿Tienes alguna duda?</h2>
+							</li>
+							<li class="list-group-item">
+								Llámanos al <br>
+								992 192 643 /
+								973 249 489 <br>
+								Lunes a Viernes: 9:00 am - 6:00 pm <br>
+								Sábados: 9:00 am - 1:00 pm
+							</li>
+							<li class="list-group-item">
+								o escríbenos a <br>
+								hola@bee.com.pe
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container-fluid">
+				<img src="img/logos/logoPoweredBee.png" alt="">
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- MODALS -->
+
+	<!-- Modal cambiar correo-->
+	<div class="modal fade modal-bee modal-cambioCorreo" id="modal-cambioCorreo" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="form-step1">
+					<div class="modal-body">
+						<div class="header-modal-bee">
+							<!-- <img src="img/icons/isotipo-bee-fondo.png" alt=""> -->
+							<h5 class="modal-title" id="exampleModalScrollableTitle">
+								¿Deseas cambiar tu correo?
+							</h5>
+						</div>
+						<div class="content-modal-bee">
+							<!-- <p>
+								Ingresa  el correo electrónico con el que te registraste para
+								enviarte un enlace de recuperación
+							</p> -->
+
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<a href="#" class="btn btn-secundario btn-large" data-dismiss="modal">
+							No cambiar
+						</a>
+
+						<a href="cambiarCorreo.html" class="btn btn-primario btn-large">
+							Cambiar correo
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin modal cambiar correo-->
+	<!-- Modal Acerca de Bee-->
+	<div class="modal fade modal-bee modal-acercaDeBee" id="modal-acercaDeBee" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="form-step1">
+					<div class="modal-body">
+						<div class="header-modal-bee">
+							<!-- <img src="img/icons/isotipo-bee-fondo.png" alt=""> -->
+							<h5 class="modal-title" id="exampleModalScrollableTitle">
+								Acerca de Bee
+							</h5>
+							<div class="content-modal-bee">
+								<p>
+									bee acompaña tus propósitos creando e impulsando soluciones
+									creativas para atender las necesidades de sus clientes,
+									corporativos o finales, brindándoles plataformas digitales
+									que les permitan obtener beneficios, a través de alianzas con
+									otras empresas, integrándolas y acompañándolas en el logro de su visión.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin modal Acerca de Bee-->
+
+	<!-- Modal Sobre BeeBeneficios-->
+	<div class="modal fade modal-bee modal-sobreBeeBeneficios" id="modal-acercaDeBee" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="form-step1">
+					<div class="modal-body">
+						<div class="header-modal-bee">
+							<!-- <img src="img/icons/isotipo-bee-fondo.png" alt=""> -->
+							<h5 class="modal-title" id="exampleModalScrollableTitle">
+								Sobre BeeBeneficios
+							</h5>
+							<div class="content-modal-bee">
+								<p>
+									Es una programa que atiende a empresas y sus trabajadores a
+									través de activaciones presenciales con visitas "in house" y
+									digitales a través de una plataforma digital. Acercamos las
+									marcas a clientes potenciales a través de nuestra plataforma y
+									generamos interacción con ellos con el apoyo de las áreas de gestión humana.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin modal Sobre BeeBeneficios-->
+
+
+
+	<!--   Bootstrap JS Files   -->
+	<script src="js/bootstrap/jquery.3.2.1.min.js"></script>
+	<script src="js/bootstrap/popper.min.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="js/plugin/datepicker/moment.js"></script>
+	<script src="js/plugin/datepicker/daterangepicker.js"></script>
+	<script src="js/registroBeneficios.js"></script>
+
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

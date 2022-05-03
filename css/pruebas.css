@@ -1,0 +1,60 @@
+.section {
+  margin: 3rem 0;
+}
+/* Equal Heights for OwlCarousel 2 */
+
+	.owl-stage {
+		display: flex;
+	}
+	.owl-item {
+		display: flex;
+		flex: 1 0 auto;
+	}
+	.caption {
+		display: flex;
+		flex: 1 0 auto;
+		flex-direction: column;
+	}
+	.flex-text {
+    background-color: pink;
+		flex-grow: 1
+	}
+	.thumbnail {
+		display: flex;
+		flex-direction: column;
+		margin: 0 15px;
+	}
+
+  /* CAROUSEL BENEFICIOS */
+
+  .item-beneficios {
+    background-color: lavender;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+		flex-direction: column;
+		margin: 0 15px;
+  }
+
+  .item-beneficios a {
+    display: flex;
+		flex: 1 0 auto;
+    flex-direction: column;
+  }
+
+  .description-card {
+    display: flex;
+		flex: 1 0 auto;
+    flex-direction: column;
+  }
+
+  .description-content {
+    display: flex;
+		flex: 1 0 auto;
+    flex-direction: column;
+  }
+
+  .description-content-top {
+    background-color: pink;
+
+  }

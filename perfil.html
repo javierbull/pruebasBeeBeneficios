@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Perfil - Bee Beneficios</title>
+	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+	<link rel="icon" href="img/icons/favicon.png" type="image/x-icon" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+	<link href="css/fonts.min.css" rel="stylesheet" type="text/css">
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="js/plugin/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/mq.css">
+
+</head>
+
+<body>
+	<!-- Overlay, must be placed direct after the opening body tag. -->
+	<div class="bs-canvas-overlay bs-canvas-anim bg-dark position-fixed w-100 h-100"></div>
+
+	<header class="bg-white">
+
+		<nav class="navbar navbar-top navbar-expand-lg nav-shadow">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="img/logos/logoBeeBeneficios.svg" alt="Logo bee Beneficios">
+				</a>
+				<div class="input-group input-search">
+					<div class="input-group-prepend">
+						<button class="btn btn-style-none" type="button" id="button-addon1">
+							<span class="material-icons">
+								search
+							</span>
+						</button>
+					</div>
+					<input type="text" list=text_editors class="form-control bg-white border-none form-control-style-none form-control-search" placeholder="Buscar" aria-label="Example text with button addon" aria-describedby="button-addon1">
+				</div>
+
+				<div class="content-user-profile-navbar ml-auto">
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+							<button class="btn btn-style-none dropdown-toggle btn-dropdown-perfil" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<img src="img/profiles/perfil.png" class="img-user img-fluid" alt="Foto usuario">
+								<div class="greetings-user">
+									Hola <span class="name-user">Natalie</span>
+								</div>
+								<div class="material-icons">
+									expand_more
+								</div>
+							</button>
+							<div class="dropdown-menu dropdown-menu-right dropdown-menu-user shadow" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="perfil.html">
+									Perfil
+								</a>
+								<a class="dropdown-item" href="misbeneficios.html">
+									Mis beneficios
+								</a>
+								<a class="dropdown-item" href="activaciones.html">
+									Activaciones
+								</a>
+								<a class="dropdown-item" href="activaciones.html">
+									Favoritos
+								</a>
+								<a class="dropdown-item" href="activaciones.html">
+									beeRewards
+								</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="login.html">
+									Cerrar sesión
+								</a>
+							</div>
+						</li>
+					</ul>
+					<div class="user-location">
+						<span>Lima, Lima</span>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+	</header>
+
+	<!-- NAVBAR CATEGORIAS -->
+	<nav class="navbar navbar-expand-lg navbar-light main navbar-categorias bg-white nav-shadow sticky-top">
+		<div class="container">
+			<div class="navbar-collapse-categorias">
+				<ul class="navbar-nav menu-categorias">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">
+							Inicio
+						</a>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="restaurantes.html">
+							Restaurantes
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Planes</h6>
+										<hr>
+										<li>
+											<a href="veranoFeliz.html">Aventura</a>
+										</li>
+										<li>
+											<a href="veranoFeliz.html">Hoteles & Resorts</a>
+										</li>
+										<li>
+											<a href="veranoFeliz.html">Viajes & excursiones</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Cursos de verano</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Básicos para el calor</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="fastfood.html">
+							Fast Food
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Cine</h6>
+										<hr>
+										<li>
+											<a href="cartelera.html">AtWork</a>
+										</li>
+										<li>
+											<a href="login.html">login</a>
+										</li>
+										<li>
+											<a href="registro.html">Registro</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Conciertos</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Deportes</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="celebraciones.html">
+							Celebraciones
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Pastas</h6>
+										<hr>
+										<li>
+											<a href="#">Aventura</a>
+										</li>
+										<li>
+											<a href="#">Hoteles & Resorts</a>
+										</li>
+										<li>
+											<a href="#">Viajes & excursiones</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Marino</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Criollo</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="entretenimiento.html">
+							Entretenimiento
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Diseño</h6>
+										<hr>
+										<li>
+											<a href="#">Aventura</a>
+										</li>
+										<li>
+											<a href="#">Hoteles & Resorts</a>
+										</li>
+										<li>
+											<a href="#">Viajes & excursiones</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Web</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Marketing Digital</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="panaderia.html">
+							Panadería
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">List header</h6>
+										<hr>
+										<li>
+											<a href="#">Aventura</a>
+										</li>
+										<li>
+											<a href="#">Hoteles & Resorts</a>
+										</li>
+										<li>
+											<a href="#">Viajes & excursiones</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">List header</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">List header</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="educacion.html">
+							Educación
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Diseño</h6>
+										<hr>
+										<li>
+											<a href="#">Aventura</a>
+										</li>
+										<li>
+											<a href="#">Hoteles & Resorts</a>
+										</li>
+										<li>
+											<a href="#">Viajes & excursiones</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Web</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">Marketing Digital</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+					<li class="nav-item dropdown position-static">
+						<a class="nav-link" role="button" href="saludybelleza.html">
+							Salud y Belleza
+						</a>
+						<ul class="dropdown-menu megamenu">
+							<div class="row">
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">List header</h6>
+										<hr>
+										<li>
+											<a href="#">Aventura</a>
+										</li>
+										<li>
+											<a href="#">Hoteles & Resorts</a>
+										</li>
+										<li>
+											<a href="#">Viajes & excursiones</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">List header</h6>
+										<hr>
+										<li>
+											<a href="#">Cocina & bar</a>
+										</li>
+										<li>
+											<a href="#">Craft</a>
+										</li>
+										<li>
+											<a href="#">Innovación</a>
+										</li>
+										<li>
+											<a href="#">Liderazgo & soft skills</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-3">
+									<ul>
+										<h6 class="list-header">List header</h6>
+										<hr>
+										<li>
+											<a href="#">Helados</a>
+										</li>
+										<li>
+											<a href="#">Refreshers</a>
+										</li>
+										<li>
+											<a href="#">Protección</a>
+										</li>
+									</ul>
+								</li>
+							</div>
+						</ul>
+					</li>
+				</ul>
+
+				<button class="btn material-icons-outlined shopping_cart-btn btn-style-none" role="button" data-toggle="canvas" data-target="#cart-desktop-home" aria-expanded="false" aria-controls="cart-desktop-home">
+					shopping_cart
+					<span class="badge-bee number-text-semiBold">04</span>
+				</button>
+			</div>
+		</div>
+	</nav>
+	<!-- FIN NAVBAR CATEGORIAS -->
+
+	<!-- Off-canvas sidebar markup, left/right or both. -->
+	<div id="bs-canvas-left" class="bs-canvas bs-canvas-anim bs-canvas-left position-fixed bg-light h-100">
+		<header class="bs-canvas-header p-3 bg-danger">
+			<h4 class="d-inline-block text-light mb-0">Canvas Header</h4>
+			<button type="button" class="bs-canvas-close close" aria-label="Close"><span aria-hidden="true" class="text-light">&times;</span></button>
+		</header>
+		<div class="bs-canvas-content px-3 py-5">
+
+		</div>
+	</div>
+
+	<div id="cart-desktop-home" class="cart-desktop bs-canvas bs-canvas-anim bs-canvas-right position-fixed">
+		<header class="header-shopping-cart overflow-auto">
+			<button type="button" class="btn bs-canvas-close float-left close-shopping-cart" aria-label="Close">
+				<span aria-hidden="true" class="material-icons">arrow_back</span>
+				<span class="hover-underline">
+					Seguir comprando
+				</span>
+			</button>
+
+		</header>
+		<div class="empty-cart-desktop">
+			<div class="empty-cart-content">
+				<span class="material-icons-outlined">
+					shopping_cart
+				</span>
+				<div class="info-empty-cart">
+					<h3>
+						¡Tu carrito de compras esta vacío!
+					</h3>
+				</div>
+			</div>
+		</div>
+		<div class="cart-content">
+			<div class="header-cart-content">
+				<h3>
+					Mis compras
+				</h3>
+				<div class="total-items">
+					<span>08</span> productos
+				</div>
+			</div>
+
+			<div class="items-cart-content custom-scrollbar">
+				<div class="item-cart">
+					<div class="detail-product">
+						<div class="brand-item-cart">
+							WONG
+						</div>
+						<div class="name-item-cart">
+							Coca-cola pack
+							<div class="description">
+								six pack + cooler
+							</div>
+						</div>
+					</div>
+					<div class="control-quantity">
+						<button type="button" name="button" class="dec qtybutton btn">-</button>
+						<input type="number" value="1" name="qtybutton" class="plus-minus-box">
+						<button type="button" name="button" class="inc qtybutton btn">+</button>
+					</div>
+					<div class="price-product">
+						s/ <span>40.00</span>
+					</div>
+				</div>
+				<div class="item-cart">
+					<div class="detail-product">
+						<div class="brand-item-cart">
+							Decameron hotels & resorts
+						</div>
+						<div class="name-item-cart">
+							Decameron El Pueblo
+							<div class="description">
+								Matrimonial - $ 190.00 Lorem ipsum dolor.
+							</div>
+						</div>
+					</div>
+					<div class="control-quantity">
+						<button type="button" name="button" class="dec qtybutton btn">-</button>
+						<input type="number" value="1" name="qtybutton" class="plus-minus-box">
+						<button type="button" name="button" class="inc qtybutton btn">+</button>
+					</div>
+					<div class="price-product">
+						s/ <span>856.00</span>
+					</div>
+				</div>
+				<div class="item-cart">
+					<div class="detail-product">
+						<div class="brand-item-cart">
+							D’onofrio
+						</div>
+						<div class="name-item-cart">
+							Alaska family pack
+							<div class="description">
+								pack x12
+							</div>
+						</div>
+					</div>
+					<div class="control-quantity">
+						<button type="button" name="button" class="dec qtybutton btn">-</button>
+						<input type="number" value="1" name="qtybutton" class="plus-minus-box">
+						<button type="button" name="button" class="inc qtybutton btn">+</button>
+					</div>
+					<div class="price-product">
+						s/ <span>48.00</span>
+					</div>
+				</div>
+				<div class="item-cart">
+					<div class="detail-product">
+						<div class="brand-item-cart">
+							Decameron hotels & resorts
+						</div>
+						<div class="name-item-cart">
+							Decameron El Pueblo
+							<div class="description">
+								Matrimonial - $ 190.00 Lorem ipsum dolor.
+							</div>
+						</div>
+					</div>
+					<div class="control-quantity">
+						<button type="button" name="button" class="dec qtybutton btn">-</button>
+						<input type="number" value="1" name="qtybutton" class="plus-minus-box">
+						<button type="button" name="button" class="inc qtybutton btn">+</button>
+					</div>
+					<div class="price-product">
+						s/ <span>856.00</span>
+					</div>
+				</div>
+				<div class="item-cart">
+					<div class="detail-product">
+						<div class="brand-item-cart">
+							D’onofrio
+						</div>
+						<div class="name-item-cart">
+							Alaska family pack
+							<div class="description">
+								pack x12
+							</div>
+						</div>
+					</div>
+					<div class="control-quantity">
+						<button type="button" name="button" class="dec qtybutton btn">-</button>
+						<input type="number" value="1" name="qtybutton" class="plus-minus-box">
+						<button type="button" name="button" class="inc qtybutton btn">+</button>
+					</div>
+					<div class="price-product">
+						s/ <span>48.00</span>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="footer-cart-content">
+				<div class="content-total-price">
+					<div class="label">
+						TOTAL
+					</div>
+					<div class="total-price">
+						s/ <span>949.00</span>
+						<div class="regular-price">
+							s/ 1850.00
+						</div>
+					</div>
+				</div>
+
+				<div class="content-saved-money">
+					<div class="label">
+						Ahorraste
+					</div>
+					<div class="saved-money">
+						s/ <span>901.00</span>
+					</div>
+				</div>
+			</div>
+			<div class="info-cart">
+				💳 Paga con tu tarjeta <span>American Express</span> <br>
+				y obtén 10% de descuento adicional
+			</div>
+			<div class="content-btn">
+				<a href="carrito.html" class="btn btn-primario btn-large">
+					Finalizar compra
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- FIN SIDEBAR OFF CANVAS -->
+
+	<main>
+		<a href="https://api.whatsapp.com/send?phone=+51966337362" target="_blank" class="whatsapp">
+			<i class="fab fa-whatsapp"></i>
+		</a>
+		<!-- NAVBAR MOBILE -->
+		<nav class="navbar navbar-top-mobile navbar-main-mobile bg-white nav-shadow fixed-top">
+			<a class="navbar-brand" href="index.html">
+				<img src="img/logos/logoBeeBeneficios.svg" alt="Logo bee Beneficios">
+			</a>
+
+			<button class="btn nav-link closeSearcherMobile closeMenuPerfilMobile btn-style-none pr-0" href="#" id="btnMenuMobile">
+				<span class="material-icons">menu</span>
+			</button>
+		</nav>
+
+		<nav class="navbar navbar-bottom-mobile navbar-main-mobile bg-white fixed-bottom">
+			<a href="index.html" class="btn nav-link closeMenuMobile closeMenuPerfilMobile closeSearcherMobile btn-style-none" href="index.html">
+				<span class="material-icons">home</span>
+			</a>
+
+			<button class="btn nav-link closeMenuMobile closeMenuPerfilMobile btn-style-none" href="#" id="btnSearcherMobile">
+				<span class="material-icons-outlined">search</span>
+			</button>
+
+			<a class="btn nav-link closeMenuMobile closeSearcherMobile" href="carrito.html">
+				<span class="material-icons-outlined">shopping_cart</span>
+				<span class="badge-bee number-text-extraBold">10</span>
+			</a>
+
+			<button class="btn nav-link btn-style-none closeMenuMobile closeSearcherMobile" id="btnMenuPerfilMobile">
+				<img src="img/profiles/perfil.png" class="img-user img-fluid" alt="Foto usuario">
+				<!-- <span class="material-icons-outlined">person</span> -->
+			</button>
+		</nav>
+
+		<div class="main-menu-mobile">
+			<div class="header-main-menu-mobile sticky-top shadow">
+				<h3 class="menu-mobile_title">
+					Categorias
+				</h3>
+
+				<button type="button" name="button" class="btn btnClose closeMenuMobile">
+					<span class="material-icons">
+						close
+					</span>
+				</button>
+			</div>
+			<div class="content-menu-mobile">
+				<ul class="list-group menu-mobile">
+					<li class="list-group-item">
+						<a href="restaurantes.html">
+							<h3 class="list-group-item_categoria">
+								Restaurantes
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="restaurantes.html">
+							<h3 class="list-group-item_categoria">
+								Fast food
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="celebraciones.html">
+							<h3 class="list-group-item_categoria">
+								Celebraciones
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="entretenimiento.html">
+							<h3 class="list-group-item_categoria">
+								Entretenimiento
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="panaderia.html">
+							<h3 class="list-group-item_categoria">
+								Panadería
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="educacion.html">
+							<h3 class="list-group-item_categoria">
+								Educación
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="saludybelleza.html">
+							<h3 class="list-group-item_categoria">
+								Salud y Belleza
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+				</ul>
+
+				<!-- <div class="content-menu-mobile-footer">
+					<p>
+						Beneficio Exclusivo
+					</p>
+					<img src="img/logos/logos_empresas/header_top/colmena.png" alt="Logo empresa usuario">
+				</div> -->
+
+			</div>
+		</div>
+
+		<div class="searcher-mobile">
+			<div class="header-searcher-mobile nav-shadow sticky-top">
+				<div class="input-group input-search input-search-mobile">
+					<input type="text" class="form-control bg-white border-none form-control-style-none form-control-search" placeholder="Buscar" aria-label="Example text with button addon" aria-describedby="button-addon1">
+					<div class="input-group-prepend">
+						<button class="btn bg-white btn-style-none" type="button" id="button-addon1">
+							<span class="material-icons">
+								search
+							</span>
+						</button>
+					</div>
+				</div>
+				<button type="button" name="button" class="btn btnClose closeSearcherMobile pr-0">
+					<span class="material-icons">
+						close
+					</span>
+				</button>
+			</div>
+			<div class="searcher-content-categories">
+
+				<div class="container">
+					<div class="grid-container-categorias-mobile">
+						<div class="item item1 card-shadow">
+							<a href="bienestar.html">
+								<div class="overlay">
+									<div class="text">
+										<h3 class="category-name">
+											Fast food
+										</h3>
+										<p class="brands-salient-category">
+											Pizza Hut · KFC · Pinkberry · Starbucks
+										</p>
+										<div>
+											<span class="tag-producto-exclusivo position-inherit bg-TagProductoExclusivo">
+												Producto exclusivo
+											</span>
+										</div>
+									</div>
+								</div>
+								<img src="img/bg/categorias/restaurantes.jpg" alt="categoría Fast food">
+							</a>
+						</div>
+						<div class="item item2 card-shadow">
+							<a href="entretenimiento.html">
+								<div class="overlay">
+									<div class="text">
+										<h3 class="category-name">
+											Entretenimiento
+										</h3>
+									</div>
+								</div>
+								<img src="img/bg/categorias/entretenimiento.jpg" alt="categoría Entretenimiento">
+							</a>
+						</div>
+						<div class="item item3 card-shadow">
+							<a href="restaurantes.html">
+								<div class="overlay">
+									<div class="text">
+										<h3 class="category-name">
+											Restaurantes
+										</h3>
+									</div>
+								</div>
+								<img src="img/bg/categorias/restaurantes.jpg" alt="categoría Restaurantes">
+							</a>
+						</div>
+						<div class="item item4 card-shadow">
+							<a href="educacion.html">
+								<div class="overlay">
+									<div class="text">
+										<h3 class="category-name">
+											Educación
+										</h3>
+									</div>
+								</div>
+								<img src="img/bg/categorias/educacion.jpg" alt="categoría Educación">
+							</a>
+						</div>
+						<div class="item item5 card-shadow">
+							<a href="bienestar.html">
+								<div class="overlay">
+									<div class="text">
+										<h3 class="category-name">
+											Bienestar
+										</h3>
+									</div>
+								</div>
+								<img src="img/bg/categorias/bienestar.jpg" alt="categoría Bienestar">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="menu-perfil-mobile">
+			<div class="header-main-menu-mobile sticky-top shadow">
+				<h3 class="menu-mobile_title">
+					Mi perfil
+				</h3>
+
+				<button type="button" name="button" class="btn btnClose closeMenuPerfilMobile">
+					<span class="material-icons">
+						close
+					</span>
+				</button>
+			</div>
+			<div class="content-menu-mobile">
+				<ul class="list-group menu-mobile">
+					<!-- <li class="list-group-item list-group-item-title">
+						<h3 class="list-title-item">
+							Mi perfil
+						</h3>
+					</li> -->
+
+					<li class="list-group-item">
+						<a href="perfil.html">
+							<h3 class="list-group-item_categoria">
+								Datos personales
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="perfil.html">
+							<h3 class="list-group-item_categoria">
+								Mi empresa
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="perfil.html">
+							<h3 class="list-group-item_categoria">
+								Mis direcciones
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+
+					<!-- <li class="list-group-item list-group-item-title">
+						<h3 class="list-title-item">
+							Acciones
+						</h3>
+					</li> -->
+					<li class="list-group-item">
+						<a href="favoritos.html">
+							<h3 class="list-group-item_categoria">
+								Favoritos
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="activaciones.html">
+							<h3 class="list-group-item_categoria">
+								Activaciones
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+					<li class="list-group-item">
+						<a href="compras.html">
+							<h3 class="list-group-item_categoria">
+								Compras
+							</h3>
+							<span class="material-icons">
+								navigate_next
+							</span>
+						</a>
+					</li>
+				</ul>
+
+				<div class="content-btns-menu-profile-mobile">
+					<button type="button" class="btn btn-link text-link btn-style-none">
+						Cerrar sesión
+					</button>
+				</div>
+			</div>
+		</div>
+		<!-- FIN NAVBAR MOBILE -->
+
+		<div class="container">
+
+			<div class="row">
+				<div class="sidebar-perfil col-lg-3">
+
+					<div class="col container-link-back">
+						<a href="index.html" class="btn-link inline-flex btn-icon-left">
+							<span class="material-icons">
+								arrow_back
+							</span>
+							<span class="text-link">
+								Volver al inicio
+							</span>
+						</a>
+					</div>
+
+					<div class="nav flex-column nav-pills nav-pills-perfil" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+						<a class="nav-link active" id="v-pills-datos-tab" data-toggle="pill" href="#v-pills-datos" role="tab" aria-controls="v-pills-datos" aria-selected="true">
+							Datos personales
+						</a>
+						<a class="nav-link" id="v-pills-empresa-tab" data-toggle="pill" href="#v-pills-empresa" role="tab" aria-controls="v-pills-empresa" aria-selected="false">
+							Mi empresa
+						</a>
+						<a class="nav-link" id="v-pills-direcciones-tab" data-toggle="pill" href="#v-pills-direcciones" role="tab" aria-controls="v-pills-direcciones" aria-selected="false">
+							Mis direcciones
+						</a>
+					</div>
+				</div>
+
+				<div class="content-tabs-perfil col-xl-9 bg-gray">
+
+					<div class="wrap-header-profile">
+						<div class="col container-link-back container-link-back-perfil mt-0 pl-0">
+							<a href="index.html" class="btn-link inline-flex btn-icon-left">
+								<span class="material-icons">
+									arrow_back
+								</span>
+								<span class="text-link">
+									Volver al inicio
+								</span>
+							</a>
+						</div>
+
+						<div class="title-section">
+							Mi perfil
+						</div>
+
+						<div class="header-profile">
+							<div class="avatar-upload">
+								<div class="avatar-preview">
+									<div id="imagePreview" class="avatar-img">
+									</div>
+								</div>
+							</div>
+
+							<div class="content-datos-profile">
+								<div class="name-user-profile">
+									Natalie Gago
+								</div>
+								<div class="email-user-profile">
+									<span class="overflow-email">
+										natalie.gago@pucp.pe
+									</span>
+								</div>
+								<div class="avatar-edit">
+									<input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+									<label for="imageUpload" class="label-link">
+										Cambiar foto
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="tab-content tab-content-perfil" id="v-pills-tabContent">
+						<div class="tab-pane fade show active" id="v-pills-datos" role="tabpanel" aria-labelledby="v-pills-datos-tab">
+
+							<div class="card-perfil card-shadow">
+								<div class="row">
+									<div class="bloque-datos-personales col-12">
+										<div class="header-card">
+											<h3 class="title-card">
+												Datos personales
+											</h3>
+											<button type="button" name="button" id="edit-datosPersonales" class="btn btn-terciario">
+												<span class="material-icons">
+													edit
+												</span>
+											</button>
+										</div>
+
+										<form class="form-datos-personales">
+											<div class="form-row">
+												<div class="form-group col-md-4">
+													<label for="inputNombres">Nombres</label>
+													<input type="text" class="form-control" id="inputNombres" placeholder="Natalie" disabled>
+													<div class="invalid-feedback">
+														Ingresa tus nombres
+													</div>
+												</div>
+												<div class="form-group col-md-4">
+													<label for="inputApellidoPaterno">Apellido paterno</label>
+													<input type="text" class="form-control" id="inputApellidoPaterno" placeholder="Gago" disabled>
+													<div class="invalid-feedback">
+														Ingresa tus apellidos
+													</div>
+												</div>
+												<div class="form-group col-md-4">
+													<label for="inputApellidoMaterno">Apellido materno</label>
+													<input type="text" class="form-control" id="inputApellidoMaterno" placeholder="Endo" disabled>
+													<div class="invalid-feedback">
+														Ingresa tus apellidos
+													</div>
+												</div>
+											</div>
+											<div class="form-row">
+												<div class="form-group col-lg-3 col-md-6">
+													<label for="inputState">Tipo de documento</label>
+													<select id="inputState" class="form-control" disabled>
+														<option>Selecciona</option>
+														<option selected>DNI</option>
+														<option>CE</option>
+													</select>
+													<div class="invalid-feedback">
+														Selecciona tu ciudad
+													</div>
+												</div>
+												<div class="form-group col-lg-3 col-md-6">
+													<label for="inputNumeroDocumento">Número de documento</label>
+													<input type="number" class="form-control" id="inputNumeroDocumento" placeholder="48400036" disabled>
+													<div class="invalid-feedback">
+														Ingresa tu número de documento
+													</div>
+												</div>
+												<!-- <div class="form-group col-lg-3 col-md-6">
+													<label for="datepicker">Fecha de nacimiento</label>
+													<div id="datepicker" class="input-group controls" data-date-format="dd-mm-yyyy">
+														<input class="form-control js-datepicker datePicker" type="text" readonly="readonly" placeholder="29/01/2021">
+													</div>
+													<div class="invalid-feedback">
+														Ingrese su fecha de nacimiento
+													</div>
+												</div> -->
+												<div class="form-group col-lg-3 col-md-6">
+													<label for="inputState">Fecha de Nacimiento</label>
+													<div class="group-fecha">
+														<select id="inputState" class="form-control">
+															<option selected>dd</option>
+															<option>01</option>
+															<option>02</option>
+															<option>03</option>
+															<option>04</option>
+															<option>05</option>
+															<option>06</option>
+															<option>07</option>
+															<option>08</option>
+															<option>09</option>
+															<option>10</option>
+															<option>11</option>
+															<option>12</option>
+															<option>13</option>
+															<option>14</option>
+															<option>15</option>
+															<option>16</option>
+															<option>17</option>
+															<option>18</option>
+															<option>19</option>
+															<option>20</option>
+															<option>21</option>
+															<option>22</option>
+															<option>23</option>
+															<option>24</option>
+															<option>25</option>
+															<option>26</option>
+															<option>27</option>
+															<option>28</option>
+															<option>29</option>
+															<option>30</option>
+															<option>31</option>
+														</select>
+														<select id="inputState" class="form-control">
+															<option selected>mm</option>
+															<option>Enero</option>
+															<option>Febrero</option>
+															<option>Marzo</option>
+															<option>Abril</option>
+															<option>Mayo</option>
+															<option>Junio</option>
+															<option>Julio</option>
+															<option>Agosto</option>
+															<option>Setiembre</option>
+															<option>Octubre</option>
+															<option>Noviembre</option>
+															<option>Diciembre</option>
+														</select>
+														<select id="inputState" class="form-control">
+															<option selected>aaaa</option>
+															<option>1950</option>
+															<option>1960</option>
+															<option>1970</option>
+															<option>1980</option>
+															<option>1990</option>
+															<option>2000</option>
+															<option>2010</option>
+															<option>2020</option>
+														</select>
+													</div>
+													<div class="invalid-feedback">
+														Selecciona tu ciudad
+													</div>
+												</div>
+												<div class="form-group col-lg-3 col-md-6">
+													<label for="inputNumeroCelular">Celular</label>
+													<input type="number" class="form-control" id="inputNumeroCelular" placeholder="948173394" disabled>
+													<div class="invalid-feedback">
+														Ingresa tu celular
+													</div>
+												</div>
+											</div>
+										</form>
+										<div class="wrap-content-btn-perfil">
+											<div class="content-btn-perfil">
+												<button type="button" id="cancelar-edit-datosPersonales" class="btn btn-secundario btn-large">
+													Cancelar
+												</button>
+												<button type="button" class="btn btn-primario btn-large">
+													Confirmar datos
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="content-btn-actions-perfil">
+								<button type="button" class="btn btn-secundario btn-large" data-toggle="modal" data-target=".modal-cambiar-contra-interna">
+									Cambiar contraseña
+								</button>
+								<button type="button" class="btn btn-secundario btn-large" data-toggle="modal" data-target=".modal-cambiar-correo-interno">
+									Cambiar correo
+								</button>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="v-pills-empresa" role="tabpanel" aria-labelledby="v-pills-empresa-tab">
+							<div class="card-perfil card-shadow">
+								<div class="row">
+									<div class="bloque-datos-personales col-12">
+										<div class="header-card">
+											<h3 class="title-card">
+												Mi empresa
+											</h3>
+											<!-- <button type="button" name="button" id="edit-datosPersonales" class="btn btn-terciario">
+												<span class="material-icons">
+													edit
+												</span>
+											</button> -->
+										</div>
+
+										<form class="form-datos-personales">
+											<div class="form-row">
+												<div class="form-group col-md-6">
+													<label for="inputEmpresa">Empresa</label>
+													<input type="text" class="form-control" id="inputEmpresa" value="Colmena Solutions" disabled>
+												</div>
+												<div class="form-group col-md-6">
+													<label for="inputState">Sede</label>
+													<select id="inputState" class="form-control line-clamp-input" disabled>
+														<option selected>Selecciona tu sede</option>
+														<option>sbncjdb cdnjdbcdj cdbjbcjd cbjdbcjdb cbjdbcj ddddddddd</option>
+														<option>Lince</option>
+														<option>Magdalena</option>
+													</select>
+													<div class="invalid-feedback">
+														Selecciones una sede
+													</div>
+												</div>
+											</div>
+											<div class="form-row">
+												<div class="form-group col-md-6">
+													<label for="inputDistrito">Distrito</label>
+													<input type="text" class="form-control" id="inputDistrito" value="Lince" disabled>
+												</div>
+
+												<div class="form-group col-md-6">
+													<label for="inputCiudad">Ciudad</label>
+													<input type="text" class="form-control" id="inputCiudad" value="Lima" disabled>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<div class="content-btn-actions-perfil">
+								<div class="form-group">
+									<label for="inputEmpresa">¿Ya no trabajas en Spark Management?</label>
+									<button type="button" class="btn btn-secundario btn-large" data-toggle="modal" data-target=".modal-cambiar-empresa">
+										Solicitar cambio de empresa
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="tab-pane fade" id="v-pills-direcciones" role="tabpanel" aria-labelledby="v-pills-direcciones-tab">
+							<div class="card-perfil card-perfil-misDirecciones card-shadow">
+								<div class="row">
+									<div class="bloque-datos-personales col-12">
+										<div class="header-card">
+											<h3 class="title-card">
+												Mis direcciones
+											</h3>
+											<button type="button" name="button" class="btn btn-secundario btn-large btn-icon-left" data-toggle="modal" data-target=".modal-nueva-direccion">
+												<span class="material-icons-outlined">
+													add
+												</span>
+												Nueva dirección
+											</button>
+										</div>
+
+										<div class="bloque-empty-address-state d-none">
+											<div class="wrap-img-empty-address">
+												<img src="img/icons/delivery.svg" class="img-empty-address" alt="Agrega una dirección">
+											</div>
+											<p>
+												Aún no tienes direcciones guardadas
+											</p>
+										</div>
+
+										<div class="bloque-direcciones-perfil">
+											<div class="row">
+												<div class="bloque-direccion-envio col-12">
+													<div class="content-cards-direcciones-guardadas">
+														<div class="grid-direcciones-guardadas">
+															<label class="card-direccion">
+																<input name="plan" class="radio-cards" type="radio" checked>
+																<div class="content-direccion">
+																	<div class="direccion-guardada">
+																		<p class="nombre-direccion line-clamp line-clamp-1">
+																			Casa Papá
+																		</p>
+																		<p class="direccion line-clamp line-clamp-1">
+																			Calle Lino Alarco 242
+																		</p>
+																		<p class="distrito line-clamp line-clamp-1">
+																			Miraflores
+																		</p>
+																	</div>
+																	<div class="dropleft hide-dropdown-icon">
+																		<button class="btn btn-style-none dropdown-toggle btn-edit-direccion" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																			<span class="material-icons-outlined">
+																				more_vert
+																			</span>
+																		</button>
+																		<div class="dropdown-menu dropdown-menu-user shadow" aria-labelledby="navbarDropdown">
+																			<button type="button" class="dropdown-item" data-toggle="modal" data-target=".modal-nueva-direccion">
+																				Modificar
+																			</button>
+																			<button type="button" class="dropdown-item" data-toggle="modal" data-target=".modal-eliminarDireccion">
+																				Eliminar
+																			</button>
+																		</div>
+																	</div>
+																</div>
+															</label>
+
+															<label class="card-direccion">
+																<input name="plan" class="radio-cards" type="radio">
+																<div class="content-direccion" aria-hidden="true">
+																	<div class="direccion-guardada">
+																		<p class="nombre-direccion line-clamp line-clamp-1">
+																			Casa Mamá
+																		</p>
+																		<p class="direccion line-clamp line-clamp-1">
+																			Jirón Bartolome de las casas 123 calle 15
+																		</p>
+																		<p class="distrito line-clamp line-clamp-1">
+																			La Molina
+																		</p>
+																	</div>
+																	<div class="dropleft hide-dropdown-icon">
+																		<button class="btn btn-style-none dropdown-toggle btn-edit-direccion" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																			<span class="material-icons-outlined">
+																				more_vert
+																			</span>
+																		</button>
+																		<div class="dropdown-menu dropdown-menu-user shadow" aria-labelledby="navbarDropdown">
+																			<button type="button" class="dropdown-item" data-toggle="modal" data-target=".modal-nueva-direccion">
+																				Modificar
+																			</button>
+																			<button type="button" class="dropdown-item" data-toggle="modal" data-target=".modal-eliminarDireccion">
+																				Eliminar
+																			</button>
+																		</div>
+																	</div>
+																</div>
+															</label>
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer-main">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-3">
+						<ul class="list-group-footer">
+							<li class="list-group-item">
+								<h2>Nosotros</h2>
+							</li>
+							<li class="list-group-item">
+								<a href="" data-toggle="modal" data-target=".modal-acercaDeBee">
+									Acerca de Bee
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="" data-toggle="modal" data-target=".modal-sobreBeeBeneficios">
+									Sobre BeeBeneficios
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="preguntasFrecuentes.html" target="_blank">
+									Preguntas frecuentes
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<ul class="list-group-footer">
+							<li class="list-group-item">
+								<h2>BeeBeneficios</h2>
+							</li>
+							<li class="list-group-item">
+								<a href="terminosYcondiciones.html" target="_blank">
+									Términos & condiciones
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="politicasDePrivacidad.html" target="_blank">
+									Políticas de privacidad
+								</a>
+							</li>
+							<li class="list-group-item">
+								<a href="" data-toggle="modal" data-target=".modalLibroReclamaciones">
+									Libro de reclamaciones
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<ul class="list-group-footer">
+							<li class="list-group-item">
+								<h2>¿Tienes alguna duda?</h2>
+							</li>
+							<li class="list-group-item">
+								Llámanos al <br>
+								992 192 643 /
+								973 249 489 <br>
+								Lunes a Viernes: 9:00 am - 6:00 pm <br>
+								Sábados: 9:00 am - 1:00 pm
+							</li>
+							<li class="list-group-item">
+								o escríbenos a <br>
+								hola@bee.com.pe
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container-fluid">
+				<img src="img/logos/logoPoweredBee.png" alt="">
+			</div>
+		</div>
+	</footer>
+
+	<!-- MODALS -->
+
+	<!-- Modal nueva cambiar contraseña interna-->
+	<div class="modal fade modal-bee modal-cambiar-contra-interna" id="modal-nueva-contra-interna" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalScrollableTitle">
+						Cambiar contraseña
+					</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="content-text-modal-bee">
+						<p>
+							Te enviaremos un correo con la confirmación del cambio de
+							contraseña a:
+							<span class="overflow-email">
+								natalie.gago@pucp.pe
+							</span>
+						</p>
+						<p>
+							Recuerda que la nueva contraseña debe contar con un
+							mínimo de 07 caracteres, 01 mayúscula y 01 número.
+						</p>
+					</div>
+					<form class="form-cambiar-contra-interna">
+						<div class="form-group">
+							<label for="password-field-current" class="label-help">
+								Contraseña actual
+							</label>
+							<input id="password-field-current" type="password" class="form-control" name="password">
+							<span toggle="#password-field-current" class="fa fa-fw fa-eye-slash field-icon toggle-password"></span>
+							<!-- <small id="emailHelp" class="form-text text-muted">
+								Debe ingresar al menos 7 caracteres
+							</small> -->
+							<div class="invalid-feedback">
+								Debe ingresar su contraseña actual
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="password-field" class="label-help">
+								Nueva contraseña
+							</label>
+							<input id="password-field" type="password" class="form-control" name="password">
+							<span toggle="#password-field" class="fa fa-fw fa-eye-slash field-icon toggle-password"></span>
+							<!-- <small id="emailHelp" class="form-text text-muted">
+								Debe ingresar al menos 7 caracteres
+							</small> -->
+							<div class="invalid-feedback">
+								Debe ingresar una contraseña válida
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="password-field-repeat" class="label-help">
+								Repetir nueva contraseña
+							</label>
+							<input id="password-field-repeat" type="password" class="form-control" name="password">
+							<span toggle="#password-field-repeat" class="fa fa-fw fa-eye-slash field-icon toggle-password"></span>
+							<div class="invalid-feedback">
+								Las contraseñas no coinciden
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer justify-content-end">
+					<a href="#" class="btn btn-primario" data-dismiss="modal">
+						Cambiar contraseña
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin modal cambiar contraseña interna-->
+
+	<!-- Modal nueva cambiar correo interno-->
+	<div class="modal fade modal-bee modal-cambiar-correo-interno" id="modal-nueva-correo-interno" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalScrollableTitle">
+						Cambiar correo
+					</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="content-text-modal-bee">
+						<p>
+							Se te enviará un correo para comprobar la autenticidad de tu cuenta.
+						</p>
+					</div>
+					<form class="form-cambiar-contra-interna">
+						<div class="form-group">
+							<label for="password-field-current-email" class="label-help">
+								Contraseña actual
+							</label>
+							<input id="password-field-current-email" type="password" class="form-control" name="password">
+							<span toggle="#password-field-current" class="fa fa-fw fa-eye-slash field-icon toggle-password"></span>
+							<!-- <small id="emailHelp" class="form-text text-muted">
+								Debe ingresar al menos 7 caracteres
+							</small> -->
+							<div class="invalid-feedback">
+								Debe ingresar su contraseña actual
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="emailInput">Nuevo Correo</label>
+							<input type="email" class="form-control" id="emailInput" aria-describedby="idHelp">
+							<div class="invalid-feedback">
+								Ingrese su nuevo correo
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="emailInputConfirm">Confirmar correo</label>
+							<input type="email" class="form-control" id="emailInputConfirm" aria-describedby="idHelp">
+							<div class="invalid-feedback">
+								Los correos no coinciden
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer justify-content-end">
+					<a href="#" class="btn btn-primario" data-dismiss="modal">
+						Cambiar correo
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin modal cambiar correo interno-->
+
+	<!-- Modal nueva dirección-->
+	<div class="modal fade modal-bee modal-nueva-direccion" id="modal-nueva-direccion" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalScrollableTitle">
+						Nueva dirección
+					</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form class="form-direccion">
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputState">Ciudad</label>
+								<select id="inputState" class="form-control">
+									<option selected>Selecciona</option>
+									<option>Lima</option>
+									<option>Trujillo</option>
+								</select>
+								<div class="invalid-feedback">
+									Selecciona tu ciudad
+								</div>
+							</div>
+							<div class="form-group col-md-6">
+								<label for="selectDistrito">Distrito</label>
+								<select id="selectDistrito" class="form-control">
+									<option selected>Selecciona</option>
+									<option>Barranco</option>
+									<option>Lince</option>
+								</select>
+								<div class="invalid-feedback">
+									Selecciona tu distrito
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="inputDireccion">Dirección</label>
+							<input type="text" class="form-control" id="inputDireccion">
+							<div class="invalid-feedback">
+								Ingresa tu dirección
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputReferencia">Referencia (Opcional)</label>
+								<input type="text" class="form-control" id="inputReferencia">
+								<div class="invalid-feedback">
+									Ingresa una referencia
+								</div>
+							</div>
+							<div class="form-group col-md-6">
+								<label for="inputNombreDireccion">Nombre de la dirección</label>
+								<input type="text" class="form-control" id="inputNombreDireccion">
+								<div class="invalid-feedback">
+									Ingresa el nombre de tu dirección
+								</div>
+							</div>
+						</div>
+
+						<div class="content-map">
+							<iframe class="mapa"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.987194275332!2d-77.03935388573167!3d-12.113028546433389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c83e99cb6ead%3A0x305466d4b5040f75!2sCalle%20Julio%20Becerra%20345%2C%20Miraflores%2015074!5e0!3m2!1ses-419!2spe!4v1601480587903!5m2!1ses-419!2spe"
+								frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						</div>
+
+					</form>
+				</div>
+				<div class="modal-footer justify-content-end">
+					<a href="#" class="btn btn-primario" data-dismiss="modal">
+						Guardar dirección
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin modal nueva dirección-->
+
+	<!-- Modal eliminar direccion-->
+	<div class="modal fade modal-bee modal-eliminarDireccion" id="modal-eliminarDireccion" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="form-step1">
+					<div class="modal-body">
+						<div class="header-modal-bee">
+							<!-- <img src="img/icons/isotipo-bee-fondo.png" alt=""> -->
+							<h5 class="modal-title" id="exampleModalScrollableTitle">
+								¿Estás seguro que deseas eliminar esta dirección?
+							</h5>
+							<div class="content-modal-bee">
+								<!-- <p>
+									Siempre puedes volver a agregarlos de manera rápida
+								</p> -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer modal-footer-vertical">
+						<a href="#" class="btn btn-danger" data-dismiss="modal">
+							Eliminar dirección
+						</a>
+						<a href="#" class="btn btn-link text-link" data-dismiss="modal">
+							Cancelar
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin modal eliminar direccion-->
+
+	<!-- Modal Acerca de Bee-->
+	<div class="modal fade modal-bee modal-acercaDeBee" id="modal-acercaDeBee" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="form-step1">
+					<div class="modal-body">
+						<div class="header-modal-bee">
+							<!-- <img src="img/icons/isotipo-bee-fondo.png" alt=""> -->
+							<h5 class="modal-title" id="exampleModalScrollableTitle">
+								Acerca de Bee
+							</h5>
+							<div class="content-modal-bee">
+								<p>
+									bee acompaña tus propósitos creando e impulsando soluciones
+									creativas para atender las necesidades de sus clientes,
+									corporativos o finales, brindándoles plataformas digitales
+									que les permitan obtener beneficios, a través de alianzas con
+									otras empresas, integrándolas y acompañándolas en el logro de su visión.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin modal Acerca de Bee-->
+
+	<!-- Modal Sobre BeeBeneficios-->
+	<div class="modal fade modal-bee modal-sobreBeeBeneficios" id="modal-acercaDeBee" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-scrollable" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="form-step1">
+					<div class="modal-body">
+						<div class="header-modal-bee">
+							<!-- <img src="img/icons/isotipo-bee-fondo.png" alt=""> -->
+							<h5 class="modal-title" id="exampleModalScrollableTitle">
+								Sobre BeeBeneficios
+							</h5>
+							<div class="content-modal-bee">
+								<p>
+									Es una programa que atiende a empresas y sus trabajadores a
+									través de activaciones presenciales con visitas "in house" y
+									digitales a través de una plataforma digital. Acercamos las
+									marcas a clientes potenciales a través de nuestra plataforma y
+									generamos interacción con ellos con el apoyo de las áreas de gestión humana.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin modal Sobre BeeBeneficios-->
+
+	<!--   Bootstrap JS Files   -->
+	<script src="js/bootstrap/jquery.3.2.1.min.js"></script>
+	<script src="js/bootstrap/popper.min.js"></script>
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="js/offcanvas.js"></script>
+	<script src="js/plugin/datepicker/moment.js"></script>
+	<script src="js/plugin/datepicker/daterangepicker.js"></script>
+	<script src="js/registroBeneficios.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

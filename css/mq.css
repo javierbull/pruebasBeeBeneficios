@@ -826,17 +826,17 @@
   /* END GRID CATEGORIES HOME */
 
   .section {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   /* SECTION MIS ACTIVACIONES */
   .header-section {
-    /* background-color: lightYellow; */
-    display: flex;
+    /* background-color: lightgreen; */
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
     margin-bottom: 1rem;
   }
 
@@ -1297,9 +1297,9 @@
   .header-section {
     /* background-color: lightYellow; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
     margin-bottom: 1rem;
   }
 
@@ -1753,10 +1753,10 @@
   /* SECTION MIS ACTIVACIONES */
   .header-section {
     /* background-color: lightYellow; */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
     margin-bottom: 1rem;
   }
 

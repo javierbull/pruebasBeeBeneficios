@@ -125,8 +125,8 @@ hr {
 }
 
 .section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .section-color {
@@ -1040,8 +1040,9 @@ footer {
 /* HOME */
 /* NAVBAR TOP */
 .navbar-top {
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
+  /* background-color: yellowgreen; */
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 .navbar-brand {
@@ -1409,8 +1410,8 @@ nav.main .midmenu {
 /* BANNER CLIENT */
 .banner-client {
   /* background-color: pink; */
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   align-items: center;
 }
@@ -1418,7 +1419,7 @@ nav.main .midmenu {
 .banner-client .content-brand-logo {
   /* background-color: lavender; */
   margin-right: 1.5rem;
-  height: 5rem;
+  height: 3.5rem;
   max-width: 10rem;
   min-width: 5rem;
   display: flex;
@@ -1437,7 +1438,7 @@ nav.main .midmenu {
 
 .banner-client .content-text-client {
   background-color: var(--midYellow);
-  min-height: 5rem;
+  min-height: 3.5rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -1942,7 +1943,7 @@ nav.main .midmenu {
   /* background-color: lightgreen; */
   display: flex;
   justify-content: space-between;
-  padding: 0 0 2rem 0;
+  padding: 0 0 1rem 0;
 }
 
 .header-section-vertical {
@@ -5593,3 +5594,17 @@ iframe {
   height: auto;
 }
 /* END SECTION PRODUCTOS DESTACADOS */
+
+/* NAVBAR CATEGORIAS NEW */
+.navbar-categories {
+  background-color: yellowgreen;
+}
+
+.navbar-collapse-categories {
+  background-color: yellow;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* END NAVBAR CATEGORIAS NEW */

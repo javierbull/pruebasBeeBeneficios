@@ -1224,7 +1224,7 @@ nav.main ul {
 
 /* ------ Mega Menu ------ */
 nav.main .megamenu {
-  padding: 20px 20px;
+  padding: 0 20px;
   position: absolute;
   top: 45px;
   left: 0;
@@ -5601,12 +5601,19 @@ iframe {
 
 /* CATEGORIES ALL */
 .tabs-all-categories {
-  background-color: lavender;
+  background-color: var(--jhon);
   display: flex;
   flex-direction: column;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.tabs-all-categories li {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem !important;
 }
 
 .tab-content-all-categories {
-  background-color: pink;
+  background-color: var(--lonely);
 }
 /* END CATEGORIES ALL */

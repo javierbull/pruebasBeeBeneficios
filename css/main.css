@@ -5613,6 +5613,10 @@ iframe {
   margin-bottom: 1.5rem !important;
 }
 
+.tabs-all-categories li:last-child {
+  margin-bottom: 0 !important;
+}
+
 .tab-content-all-categories {
   background-color: var(--lonely);
 }

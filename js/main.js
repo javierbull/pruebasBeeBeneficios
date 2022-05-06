@@ -248,14 +248,21 @@ $(document).ready(function() {
   });
   // END ACCORDION FILTER
 
-  $(".side-menu-categorias .nav-link").hover(function() {
-    $(this).tab('show');
+
+  $('.nav-tabs-hover > li').mouseover(function() {
+    $(this).find('a').tab('show');
   });
+  $('.nav-tabs-hover > li').mouseout(function() {
+    $(this).find('a').tab('hide');
+  });
+
 
   // Load modal
   // $(function() {
   //   $("#modal-flyer-fe").modal();
   // });
   // End load modal
+
+
 
 });

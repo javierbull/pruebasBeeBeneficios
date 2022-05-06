@@ -1405,6 +1405,9 @@ nav.main .midmenu {
 }
 
 /* FIN PILL badge-bee DESKTOP */
+
+
+
 /* FIN MENÚ CATEGORIAS */
 
 /* BANNER CLIENT */
@@ -5594,3 +5597,14 @@ iframe {
   height: auto;
 }
 /* END SECTION PRODUCTOS DESTACADOS */
+
+
+/* CATEGORIES ALL */
+.tabs-all-categories {
+  background-color: lavender;
+}
+
+.tab-content-all-categories {
+  background-color: pink;
+}
+/* END CATEGORIES ALL */

@@ -5602,6 +5602,8 @@ iframe {
 /* CATEGORIES ALL */
 .tabs-all-categories {
   background-color: lavender;
+  display: flex;
+  flex-direction: column;
 }
 
 .tab-content-all-categories {

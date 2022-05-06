@@ -249,12 +249,15 @@ $(document).ready(function() {
   // END ACCORDION FILTER
 
 
+  // TABS HOVER
   $('.nav-tabs-hover > li').mouseover(function() {
     $(this).find('a').tab('show');
   });
   $('.nav-tabs-hover > li').mouseout(function() {
     $(this).find('a').tab('hide');
   });
+
+  // END TABS HOVER
 
 
   // Load modal

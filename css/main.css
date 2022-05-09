@@ -1348,6 +1348,7 @@ nav.main .midmenu {
   width: 15rem;
   padding: 1rem !important;
   margin: .5rem;
+  list-style: none;
   /* border: 1px solid blue; */
 }
 
@@ -5658,10 +5659,11 @@ iframe {
 }
 
 .header-tab-pane {
+  background-color: greenyellow;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
 }
 
 .tab-pane-title {
@@ -5669,5 +5671,9 @@ iframe {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 0;
+}
+
+.body-tab-pane {
+  background-color: lightyellow;
 }
 /* END CATEGORIES ALL */

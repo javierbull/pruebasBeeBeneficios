@@ -564,7 +564,12 @@ input[type=number] {
 
 /* background carousel */
 .carousel-login {
+  /* background-color: greenyellow; */
   position: fixed;
+}
+
+.carousel-login .carousel-item {
+  min-height: 100vh;
 }
 
 .carousel-item-bg {

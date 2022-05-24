@@ -1354,7 +1354,7 @@ nav.main .midmenu {
 
 .list-title-category {
   display: block;
-  font-weight: 600;
+  font-weight: 600 !important;
   margin-bottom: 1rem;
 }
 
@@ -1364,6 +1364,7 @@ nav.main .midmenu {
 
 .list-category  a {
   color: var(--ringo);
+  font-weight: 400;
 }
 
 /* END CATEGORY LIST */

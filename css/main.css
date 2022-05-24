@@ -1229,8 +1229,7 @@ nav.main .megamenu {
   top: 45px;
   left: 0;
   right: 0;
-  /* max-width: 1500px; */
-  width: 100%;
+  width: 1280px;
   margin-left: auto;
   margin-right: auto;
   z-index: 1050;
